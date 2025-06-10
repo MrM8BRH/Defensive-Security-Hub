@@ -27,7 +27,7 @@ A curated collection of essential resources, tools, and references for Security 
 
 ## 📂 Repository Structure
 ```bash
-├── Training
+┌── Training
 ├── Articles
 ├── Documents & Publications
 ├── Blogs
