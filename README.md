@@ -29,11 +29,11 @@ A curated collection of essential resources, tools, and references for Security 
 ```bash
 ├── Training
 ├── Articles
+├── Documents & Publications
 ├── Blogs
 ├── GitHub Repositories
 ├── Email Analysis
 ├── File Analysis
-├── Documents & Publications
 ├── Cheat Sheets
 ├── Websites and Tools
 ├── Threat Hunting
@@ -61,12 +61,20 @@ A curated collection of essential resources, tools, and references for Security 
 - [DFIR Training](https://www.dfir.training/)
 
 ### Articles
+- [A Career Guide for Your First Analyst Role and Beyond](https://www.devo.com/soc-career-guide/)
 - [Security Operation Center](https://www.splunk.com/en_us/blog/learn/soc-security-operation-center.html)
 - [Measuring Detection Coverage](https://ipurple.team/2024/10/10/measuring-detection-coverage/)
 - [A Sysmon Event ID Breakdown](https://www.blackhillsinfosec.com/a-sysmon-event-id-breakdown/)
 - [Threat Hunting --- Suspicious Windows Services](https://detect.fyi/threat-hunting-suspicious-windows-service-names-2f0dceea204c)
 - [Ransomware identification for the judicious analyst](https://www.gdatasoftware.com/blog/2019/06/31666-ransomware-identification-for-the-judicious-analyst)
 - [How SELinux deny rules improve system security ](https://developers.redhat.com/articles/2025/06/04/how-selinux-deny-rules-improve-system-security#)
+
+### Documents & Publications
+- [Hack The Logs](https://www.hackthelogs.com/)
+- [Event Log Compendium](https://eventlog-compendium.streamlit.app/)
+- [System Monitoring](https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-monitoring)
+- [The Fundamental Guide to Building a Better SOC](https://www.splunk.com/en_us/pdfs/resources/e-book/the-fundamental-guide-to-building-a-better-security-operation-center-soc.pdf)
+- [The State of Security 2023](https://www.splunk.com/en_us/pdfs/gated/ebooks/state-of-security-2023.pdf)
 
 ### Blogs
 - [Security Investigation](https://www.socinvestigation.com/)
@@ -105,14 +113,6 @@ A curated collection of essential resources, tools, and references for Security 
 ### File Analysis
 - [oletools](https://github.com/decalage2/oletools)
 - [peepdf](https://github.com/jesparza/peepdf)
-
-### Documents & Publications
-- [Hack The Logs](https://www.hackthelogs.com/)
-- [Event Log Compendium](https://eventlog-compendium.streamlit.app/)
-- [System Monitoring](https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-monitoring)
-- [The Fundamental Guide to Building a Better SOC](https://www.splunk.com/en_us/pdfs/resources/e-book/the-fundamental-guide-to-building-a-better-security-operation-center-soc.pdf)
-- [The State of Security 2023](https://www.splunk.com/en_us/pdfs/gated/ebooks/state-of-security-2023.pdf)
-- [ISO 27001]()
 
 ### Cheat Sheets & Tables
 - [RFC Editor](https://www.rfc-editor.org/)
@@ -185,6 +185,7 @@ A curated collection of essential resources, tools, and references for Security 
 - [URL2PNG - Website Screenshot Service](https://www.url2png.com/)
 
 ### Hardening
+- [Getting Started with ISO 27001](https://iseoblue.com/27001-getting-started/)
 - [CIS Benchmarks](https://downloads.cisecurity.org/#/)
 - [How To Secure A Linux Server](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server)
 - [The Practical Linux Hardening Guide](https://github.com/trimstray/the-practical-linux-hardening-guide)
@@ -374,3 +375,4 @@ A curated collection of essential resources, tools, and references for Security 
 
 ### Exams
 - [CompTIA Security+ SY0-701 Quiz](https://gourabdg47.github.io/assets/projects/security_exam_quiz/)
+- [ISO 27001 Lead Auditor](https://learn.mastermindassurance.com/products/courses/iso-27001-lead-auditor)
