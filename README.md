@@ -37,6 +37,8 @@ A curated collection of essential resources, tools, and references for Security 
 ├── Cheat Sheets
 ├── Websites and Tools
 ├── Threat Hunting
+├── DFIR
+├── Hardening
 ├── Cyber Threat Intelligence
 ├── Cyber Threat Intelligence Platforms
 ├── MISP Resources Documentation
@@ -50,11 +52,13 @@ A curated collection of essential resources, tools, and references for Security 
 ├── Start.me pages
 ├── OSINT Communities
 ├── OSINT Resources
-└── Telegram Channels
+├── Telegram Channels
+└── Exams
 ```
 
 ### Training
 - [Student SOC Program Foundations training](https://microsoft.github.io/SOC/source/content/#/)
+- [DFIR Training](https://www.dfir.training/)
 
 ### Articles
 - [Security Operation Center](https://www.splunk.com/en_us/blog/learn/soc-security-operation-center.html)
@@ -74,6 +78,7 @@ A curated collection of essential resources, tools, and references for Security 
 - [eCrime](https://ecrime.ch/media.php)
 - [DevSecOps Guides](https://blog.devsecopsguides.com/)
 - [Exploit Reversing](https://exploitreversing.com/)
+- [Know Your Adversary](https://www.knowyouradversary.ru/)
 - [InfoStealers](https://www.infostealers.com/learn-info-stealers/)
 - [Hackers Arise](https://www.hackers-arise.com/)
 
@@ -124,30 +129,13 @@ A curated collection of essential resources, tools, and references for Security 
 - [Digital Forensics and Incident Response](https://www.jaiminton.com/cheatsheet/DFIR/)
 
 ### Websites and Tools
+- [SOC Resources for Daily Operations](https://cybersectalk.com/soc-resources/)
 - [Suricata](https://suricata.io/)
 - [Snort](https://www.snort.org/)
 - [Wireshark](https://www.wireshark.org/)
 - [YARA](https://virustotal.github.io/yara/)
 - [Attack Rule Map](https://attackrulemap.com/)
-- [Living Off the Living Off the Land](https://lolol.farm/)
-- [UnProtect](https://unprotect.it/)
-- [EchoTrail](https://www.echotrail.io/insights)
-- [TrailDiscover](https://github.com/adanalvarez/TrailDiscover)
-- [BLADE Framework Matrix](https://www.bladeframework.org/matrix)
-- [ARTToolkit](https://arttoolkit.github.io/)
-- [Exploit Notes](https://exploit-notes.hdks.org/)
-- [CyberChef](https://gchq.github.io/CyberChef/)
 - [endoflife.date](https://endoflife.date/)
-- [Timestamp Solver](https://timestampsolver.com/)
-- [Qu1cksc0pe](https://github.com/CYB3RMX/Qu1cksc0pe)
-- [Detect-It-Easy](https://github.com/horsicq/Detect-It-Easy)
-- [malwoverview](https://github.com/alexandreborges/malwoverview)
-- [C2-Tracker](https://github.com/montysecurity/C2-Tracker)
-- [ID Ransomware](https://id-ransomware.malwarehunterteam.com/)
-- [No more Ransom](https://www.nomoreransom.org/en/index.html)
-- [forensictools](https://github.com/cristianzsh/forensictools)
-- [Majestic Million Websites](https://majestic.com/reports/majestic-million)
-- [URL2PNG - Website Screenshot Service](https://www.url2png.com/)
 
 ### Threat Hunting
 - [MITRE ATT&amp;CK](https://attack.mitre.org/)
@@ -158,6 +146,53 @@ A curated collection of essential resources, tools, and references for Security 
 - [DNS Abuse Techniques Matrix](https://firstdotorg.github.io/dns-abuse-sig/)
 - [Detection Engineering Maturity Matrix](https://detectionengineering.io/)
 - [Evids](https://evids.dfir.tips/)
+- [Majestic Million Websites](https://majestic.com/reports/majestic-million)
+
+### DFIR
+- [AboutDFIR](https://aboutdfir.com/)
+- [DFUR Diva](https://dfirdiva.com/)
+- [Forensic Focus](https://www.forensicfocus.com/)
+- [Digital Forensics and Incident Response](https://www.jaiminton.com/cheatsheet/DFIR/#)
+- [Awesome Incident Response](https://github.com/meirwah/awesome-incident-response)
+- [Incident-Playbook](https://github.com/austinsonger/Incident-Playbook)
+- [RegSeek](https://regseek.github.io/)
+- [Timestamp Solver](https://timestampsolver.com/)
+- [Epoch Converter](https://www.epochconverter.com/)
+- [Qu1cksc0pe](https://github.com/CYB3RMX/Qu1cksc0pe)
+- [Detect-It-Easy](https://github.com/horsicq/Detect-It-Easy)
+- [malwoverview](https://github.com/alexandreborges/malwoverview)
+- [Aurora Incident Response](https://github.com/cyb3rfox/Aurora-Incident-Response)
+- [FJTA - Forensic Journal Timeline Analyzer](https://github.com/mnrkbys/fjta)
+- [Unix-like Artifacts Collector (UAC)](https://github.com/tclahr/uac)
+- [UEFITool](https://github.com/LongSoft/UEFITool)
+- [DFIR_Toolbar](https://github.com/Beercow/DFIR_Toolbar)
+- [TheHive](https://github.com/TheHive-Project/TheHive)
+- [Fast Incident Response](https://github.com/certsocietegenerale/FIR)
+- [GRR Rapid Response](https://github.com/google/grr)
+- [DFIR IRIS](https://www.dfir-iris.org/)
+- [C2-Tracker](https://github.com/montysecurity/C2-Tracker)
+- [ID Ransomware](https://id-ransomware.malwarehunterteam.com/)
+- [No more Ransom](https://www.nomoreransom.org/en/index.html)
+- [forensictools](https://github.com/cristianzsh/forensictools)
+- [Living Off the Living Off the Land](https://lolol.farm/)
+- [UnProtect](https://unprotect.it/)
+- [EchoTrail](https://www.echotrail.io/insights)
+- [TrailDiscover](https://github.com/adanalvarez/TrailDiscover)
+- [BLADE Framework Matrix](https://www.bladeframework.org/matrix)
+- [ARTToolkit](https://arttoolkit.github.io/)
+- [Exploit Notes](https://exploit-notes.hdks.org/)
+- [CyberChef](https://gchq.github.io/CyberChef/)
+- [URL2PNG - Website Screenshot Service](https://www.url2png.com/)
+
+### Hardening
+- [CIS Benchmarks](https://downloads.cisecurity.org/#/)
+- [How To Secure A Linux Server](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server)
+- [The Practical Linux Hardening Guide](https://github.com/trimstray/the-practical-linux-hardening-guide)
+- [OpenSCAP](https://www.open-scap.org/tools/openscap-base/)
+- [DevSec Project](https://dev-sec.io/)
+- [HARDN-XDR](https://github.com/OpenSource-For-Freedom/HARDN-XDR)
+- [Hardening Ubuntu. Systemd edition.](https://github.com/konstruktoid/hardening)
+- [lynis](https://github.com/CISOfy/lynis)
 
 ### Cyber Threat Intelligence
 - [CTI-CMM](https://github.com/cti-cmm/framework)
@@ -289,6 +324,7 @@ A curated collection of essential resources, tools, and references for Security 
 - [build-a-soc](https://start.me/p/ME2Q4k/build-a-soc)
 - [CTI](https://start.me/p/rxRbpo/cti)
 - [infosec](https://start.me/p/m6Edbv/infosec)
+- [Forensics](https://start.me/p/q6mw4Q/forensics)
 - [OSINT Darkweb Russia](https://start.me/p/kx5qL5/osint-darkweb-russia)
 - [Dark Web](https://start.me/p/0PGKad/darkweb)
 - [The Ultimate OSINT Collection](https://start.me/p/DPYPMz/the-ultimate-osint-collection)
@@ -335,3 +371,6 @@ A curated collection of essential resources, tools, and references for Security 
 - [Security Harvester](https://t.me/secharvester)
 - [Netsec](https://t.me/RNetsec)
 - [Blue Team | SOC | DFIR | Cloud Security](https://t.me/socanalyst)
+
+### Exams
+- [CompTIA Security+ SY0-701 Quiz](https://gourabdg47.github.io/assets/projects/security_exam_quiz/)
