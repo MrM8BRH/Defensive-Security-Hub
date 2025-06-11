@@ -323,6 +323,7 @@ A curated collection of essential resources, tools, and references for Security 
 - [LeakZone](https://leakzone.net/)
 
 ### Start.me Pages
+- [The Ultimate Osint Collection](https://start.me/p/DPYPMz/the-ultimate-osint-collection)
 - [Cyber Threat Intelligence](https://start.me/p/wMrA5z/cyber-threat-intelligence)
 - [build-a-soc](https://start.me/p/ME2Q4k/build-a-soc)
 - [CTI](https://start.me/p/rxRbpo/cti)
@@ -343,6 +344,12 @@ A curated collection of essential resources, tools, and references for Security 
 - [Digital Forensics](https://start.me/p/m60j2v/digital-forensics)
 - [Deepfake Detection](https://start.me/p/zpkMMO/deep-fake-tools-detection)
 - [IT & Cybersecurity](https://start.me/p/KMqznE/it-cyber-security)
+- [Mobile](https://start.me/p/OmxRqE/mobile)
+- [Toolkit](https://start.me/p/W1AXYo/toolkit)
+- [AML Toolbox](https://start.me/p/rxeRqr/aml-toolbox)
+- [Nixintel's OSINT Resource List](https://start.me/p/rx6Qj8/nixintel-s-osint-resource-list)
+- [Hunt OSINT](https://start.me/p/kxGLzd/hun-osint)
+- [OSINT Smart Framework](https://start.me/p/lL98AO/osint-smart-framework)
 
 ### OSINT Communities
 - [UK OSINT](https://www.uk-osint.net/index.html)
