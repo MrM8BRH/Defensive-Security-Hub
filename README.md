@@ -375,6 +375,9 @@ A curated collection of essential resources, tools, and references for Security 
 - [Business Resilience](https://start.me/p/wMgzM5/business-resilience)
 - [Malware Analysis](https://start.me/p/jj2KwQ/malware-analysis)
 - [Threat Informed Defense Ecosystem](https://start.me/p/X25q7l/threat-informed-defense-ecosystem)
+- [International Security Research](https://start.me/p/2pMv6d/international-security-research)
+- [OSINT Tools Miscellaneous](https://start.me/p/kx462X/osint-tools-miscellaneous)
+- [Human Resources Counter Intelligence](https://start.me/p/jjeDpL/human-resources-counter-intelligence)
 
 
 ### OSINT Communities
