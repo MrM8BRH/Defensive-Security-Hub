@@ -51,6 +51,7 @@ A curated collection of essential resources, tools, and references for Security 
 ├── Hacking Communities & Resources
 ├── Start.me pages
 ├── OSINT Communities
+├── OSINT Medium Bloggers
 ├── OSINT Resources
 ├── Telegram Channels
 └── Exams
@@ -354,6 +355,26 @@ A curated collection of essential resources, tools, and references for Security 
 - [Cyber Social Hub](https://cybersocialhub.com/)
 - [OSINT Team](https://www.osintteam.com/)
 - [Projet Fox](https://projetfox.com/)
+
+### OSINT Medium Bloggers
+- [Techjournalist](https://techjournalism.medium.com/)
+- [Igor S. Bederov](https://medium.com/@ibederov_en)
+- [CyberGuy](https://medium.com/@CyberGuyknows)
+- [Oloyede Olajumoke Elizabeth](https://cyberliza.medium.com/)
+- [Chad Warner](https://warnerchad.medium.com/)
+- [IntelTakes](https://medium.com/@IntelTakes)
+- [Steve Micallef](https://medium.com/@micallst)
+- [Tokyo_v2](https://privacy-security.medium.com/)
+- [Tom Jarvis](https://tompatrickjarvis.medium.com/)
+- [Somdev Sangwan](https://s0md3v.medium.com/)
+- [Jeffrey Mader](https://osint-doc.medium.com/)
+- [Benjamin Strick](https://medium.com/@bendobrown)
+- [@DFRLab](https://medium.com/@DFRLab)
+- [Officer's Notes](https://officercia.medium.com/)
+- [Christina Lekati](https://christina-lekati.medium.com/)
+- [InfoSecSherpa (Tracy Z. Maleeff)](https://infosecsherpa.medium.com/)
+- [wondersmith_rae](https://wondersmithrae.medium.com/)
+- [Intel_Inquirer](https://intel-inquirer.medium.com/)
 
 ### OSINT Resources
 - [Best OSINT books](https://www.osintteam.com/books/)
