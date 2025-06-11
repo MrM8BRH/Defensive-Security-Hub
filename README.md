@@ -73,6 +73,7 @@ A curated collection of essential resources, tools, and references for Security 
 - [Hack The Logs](https://www.hackthelogs.com/)
 - [Event Log Compendium](https://eventlog-compendium.streamlit.app/)
 - [System Monitoring](https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-monitoring)
+- [No-Budget Living-Off-the-Land Detection](https://sansorg.egnyte.com/dd/XtOZi6h0G1/)
 - [The Fundamental Guide to Building a Better SOC](https://www.splunk.com/en_us/pdfs/resources/e-book/the-fundamental-guide-to-building-a-better-security-operation-center-soc.pdf)
 - [The State of Security 2023](https://www.splunk.com/en_us/pdfs/gated/ebooks/state-of-security-2023.pdf)
 
