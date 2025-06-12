@@ -31,6 +31,7 @@ A curated collection of essential resources, tools, and references for Security 
 ├── Articles
 ├── Documents & Publications
 ├── Blogs
+├── CyberSec Frameworks & Models
 ├── GitHub Repositories
 ├── Email Analysis
 ├── File Analysis
@@ -93,6 +94,19 @@ A curated collection of essential resources, tools, and references for Security 
 - [InfoStealers](https://www.infostealers.com/learn-info-stealers/)
 - [Hackers Arise](https://www.hackers-arise.com/)
 
+### CyberSec Frameworks & Models
+- [Cyber Kill Chain](https://www.lockheedmartin.com/en-us/capabilities/cyber/cyber-kill-chain.html)
+- [MITRE ATT&CK](https://attack.mitre.org/)
+- [NIST](https://www.nist.gov/)
+- [PCI DSS](https://www.pcisecuritystandards.org/)
+- [ISO](https://www.iso.org/standards.html)
+- [HIPPA](https://www.hhs.gov/hipaa/for-professionals/privacy/laws-regulations/index.html)
+- [COBIT](https://www.isaca.org/resources/cobit)
+- [CCM](https://cloudsecurityalliance.org/research/cloud-controls-matrix/)
+- [CIS Benchmarks](https://www.cisecurity.org/cis-benchmarks)
+- [SCF](https://securecontrolsframework.com/)
+- [SOC2](https://www.aicpa-cima.com/topic/audit-assurance/audit-and-assurance-greater-than-soc-2)
+
 ### GitHub Repositories
 - [eXtended Threat-informed Defence (XTID)](https://github.com/jalacloud/Extended-Threat-Informed-Defence)
 - [Cybersecurity Resources and Learning Journey](https://github.com/MrM8BRH/CRLJ)
@@ -136,6 +150,18 @@ A curated collection of essential resources, tools, and references for Security 
 - [Snort](https://www.snort.org/)
 - [Wireshark](https://www.wireshark.org/)
 - [YARA](https://virustotal.github.io/yara/)
+- [Zeek](https://zeek.org/)
+- [Ubertooth](https://github.com/greatscottgadgets/ubertooth)
+- [Tcpdump](https://www.tcpdump.org/)
+- [PCAPdroid](https://github.com/emanuele-f/PCAPdroid)
+- [Sniffnet](https://sniffnet.net/)
+- [Sniffglue](https://github.com/kpcyrd/sniffglue)
+- [Ngrep](https://github.com/jpr5/ngrep)
+- [Kismet](https://www.kismetwireless.net/)
+- [KisMAC](https://kismac-ng.org/)
+- [Ettercap](https://www.ettercap-project.org/)
+- [Driftnet](https://github.com/deiv/driftnet)
+- [Arkime](https://arkime.com/)
 - [Attack Rule Map](https://attackrulemap.com/)
 - [endoflife.date](https://endoflife.date/)
 
