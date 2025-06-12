@@ -50,6 +50,7 @@ A curated collection of essential resources, tools, and references for Security 
 ├── Privacy & Image Search Tools
 ├── Hacking Communities & Resources
 ├── Start.me pages
+├── Reddit Communities
 ├── OSINT Communities
 ├── OSINT Medium Bloggers
 ├── OSINT Resources
@@ -385,6 +386,32 @@ A curated collection of essential resources, tools, and references for Security 
 - [OSINT Tools Miscellaneous](https://start.me/p/kx462X/osint-tools-miscellaneous)
 - [Human Resources Counter Intelligence](https://start.me/p/jjeDpL/human-resources-counter-intelligence)
 
+### Reddit Communities
+- [Cybersecurity101](https://www.reddit.com/r/Cybersecurity101/)
+- [netsec](https://www.reddit.com/r/netsec/)
+- [AskNetsec](https://www.reddit.com/r/AskNetsec/)
+- [SecurityCareerAdvice](https://www.reddit.com/r/SecurityCareerAdvice/)
+- [ITCareerQuestions](https://www.reddit.com/r/ITCareerQuestions/)
+- [netsecstudents](https://www.reddit.com/r/netsecstudents/)
+- [blueteamsec](https://www.reddit.com/r/blueteamsec/)
+- [redteamsec](https://www.reddit.com/r/redteamsec/)
+- [securityCTF](https://www.reddit.com/r/securityCTF/)
+- [ReverseEngineering](https://www.reddit.com/r/ReverseEngineering/)
+- [computerforensics](https://www.reddit.com/r/computerforensics/)
+- [crypto](https://www.reddit.com/r/crypto/)
+- [webscraping](https://www.reddit.com/r/webscraping/)
+- [privacy](https://www.reddit.com/r/privacy/)
+- [PrivacyGuides](https://www.reddit.com/r/PrivacyGuides/)
+- [privacytoolsIO](https://www.reddit.com/r/privacytoolsIO/)
+- [tryhackme](https://www.reddit.com/r/tryhackme/)
+- [hackthebox](https://www.reddit.com/r/hackthebox/)
+- [Splunk](https://www.reddit.com/r/Splunk/)
+- [CryptoCurrency](https://www.reddit.com/r/CryptoCurrency/)
+- [sysadmin](https://www.reddit.com/r/sysadmin/)
+- [hardware](https://www.reddit.com/r/hardware/)
+- [technology](https://www.reddit.com/r/technology/)
+- [programming](https://www.reddit.com/r/programming/)
+- [learnprogramming](https://www.reddit.com/r/learnprogramming/)
 
 ### OSINT Communities
 - [UK OSINT](https://www.uk-osint.net/index.html)
