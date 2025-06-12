@@ -225,6 +225,7 @@ A curated collection of essential resources, tools, and references for Security 
 - [lynis](https://github.com/CISOfy/lynis)
 
 ### Cyber Threat Intelligence
+- [Awesome Threat Intelligence](https://github.com/hslatman/awesome-threat-intelligence)
 - [CTI-CMM](https://github.com/cti-cmm/framework)
 - [Orange Cyberdefense](https://research.orangecyberdefense.com/now/)
 
@@ -271,6 +272,7 @@ A curated collection of essential resources, tools, and references for Security 
 - [Sophos-originated indicators-of-compromise from published reports](https://github.com/sophoslabs/IoCs)
 - [Indicators from Unit 42 Public Reports](https://github.com/pan-unit42/iocs)
 - [openhunting](https://openhunting.io/threat-library)
+- [Free and Open Source Threat Intelligence Feeds](https://www.threat-intel.xyz/)
 
 ### Vulnerability Intelligence Resources
 - [CVSS v4.0](https://www.first.org/cvss/v4-0/)
@@ -282,6 +284,8 @@ A curated collection of essential resources, tools, and references for Security 
 - [VulDB Vendor Search](https://vuldb.com/?vendor)
 - [National Vulnerability Database](https://nvd.nist.gov/vuln)
 - [CVE MITRE Database](https://cve.mitre.org/)
+- [Vulnerability Explorer](https://cti.wazuh.com/vulnerabilities/cves)
+- [VDE](https://certvde.com/en/advisories/)
 - [CVE Monitor](https://cvemon.intruder.io/)
 - [Mend.io Vulnerability Database](https://www.mend.io/vulnerability-database/)
 - [Vulmon Vulnerability Trends](https://vulmon.com/trends)
