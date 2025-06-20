@@ -83,6 +83,9 @@ A curated collection of essential resources, tools, and references for Security 
 ### Blogs
 - [Security Investigation](https://www.socinvestigation.com/)
 - [The DFIR Report](https://thedfirreport.com/)
+- [Know Your Adversary](https://www.knowyouradversary.ru/)
+- [CyberTriage](https://www.cybertriage.com/blog/)
+- [Huntress](https://www.huntress.com/blog/)
 - [HackForLab](https://hackforlab.com/category/threat-intelligence/)
 - [Detection Engineering Collective](https://detect.fyi/)
 - [Cyberdefense](https://www.orangecyberdefense.com/global/blog/threat)
@@ -90,7 +93,6 @@ A curated collection of essential resources, tools, and references for Security 
 - [eCrime](https://ecrime.ch/media.php)
 - [DevSecOps Guides](https://blog.devsecopsguides.com/)
 - [Exploit Reversing](https://exploitreversing.com/)
-- [Know Your Adversary](https://www.knowyouradversary.ru/)
 - [InfoStealers](https://www.infostealers.com/learn-info-stealers/)
 - [Hackers Arise](https://www.hackers-arise.com/)
 
@@ -98,6 +100,7 @@ A curated collection of essential resources, tools, and references for Security 
 - [Cyber Kill Chain](https://www.lockheedmartin.com/en-us/capabilities/cyber/cyber-kill-chain.html)
 - [MITRE ATT&CK](https://attack.mitre.org/)
 - [NIST](https://www.nist.gov/)
+- [NIST Risk Assessment Template](https://www.securityscientist.net/nist-risk-assessment-template/)
 - [PCI DSS](https://www.pcisecuritystandards.org/)
 - [ISO](https://www.iso.org/standards.html)
 - [HIPPA](https://www.hhs.gov/hipaa/for-professionals/privacy/laws-regulations/index.html)
@@ -190,6 +193,7 @@ A curated collection of essential resources, tools, and references for Security 
 - [Qu1cksc0pe](https://github.com/CYB3RMX/Qu1cksc0pe)
 - [Detect-It-Easy](https://github.com/horsicq/Detect-It-Easy)
 - [malwoverview](https://github.com/alexandreborges/malwoverview)
+- [DFIRTrack ](https://github.com/dfirtrack/dfirtrack)
 - [Aurora Incident Response](https://github.com/cyb3rfox/Aurora-Incident-Response)
 - [FJTA - Forensic Journal Timeline Analyzer](https://github.com/mnrkbys/fjta)
 - [Unix-like Artifacts Collector (UAC)](https://github.com/tclahr/uac)
@@ -228,6 +232,7 @@ A curated collection of essential resources, tools, and references for Security 
 - [Awesome Threat Intelligence](https://github.com/hslatman/awesome-threat-intelligence)
 - [CTI-CMM](https://github.com/cti-cmm/framework)
 - [Orange Cyberdefense](https://research.orangecyberdefense.com/now/)
+- [Hacktivist Coalitions](https://github.com/flqueiroz/hacktivist-coalitions)
 
 ### Cyber Threat Intelligence Platforms
 - [IntelMQ](https://github.com/certtools/intelmq)
@@ -276,11 +281,15 @@ A curated collection of essential resources, tools, and references for Security 
 
 ### Vulnerability Intelligence Resources
 - [CVSS v4.0](https://www.first.org/cvss/v4-0/)
+- [FIRST CVSS Version 4.0 Calculator](https://www.first.org/cvss/calculator/4-0)
+- [NVD CVSS Calculator](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator)
+- [OWASP Risk Assessment Calculator](https://javierolmedo.github.io/OWASP-Calculator/)
 - [Common Weakness Enumeration](https://cwe.mitre.org/index.html)
 - [CISA Known Exploited Vulnerabilities](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
 - [Bleeping Computer](https://www.bleepingcomputer.com/tag/vulnerability/)
 - [Cybersecurity News](https://cybersecuritynews.com/category/vulnerability/)
 - [Vulert](https://vulert.com/blog/)
+- [Vulners](https://vulners.com/)
 - [VulDB Vendor Search](https://vuldb.com/?vendor)
 - [National Vulnerability Database](https://nvd.nist.gov/vuln)
 - [CVE MITRE Database](https://cve.mitre.org/)
@@ -308,6 +317,7 @@ A curated collection of essential resources, tools, and references for Security 
 - [VirusTotal File Scan](https://www.virustotal.com/gui/home/upload)
 - [Hybrid Analysis](https://www.hybrid-analysis.com/)
 - [ANY.RUN Interactive Malware Analysis](https://any.run/)
+- [SOCRadar](https://socradar.io/)
 - [Joe Sandbox](https://www.joesecurity.org/#)
 - [FileScan.io](https://www.filescan.io/scan)
 - [URLScan.io](https://urlscan.io/)
@@ -347,6 +357,7 @@ A curated collection of essential resources, tools, and references for Security 
 - [Leak-Lookup](https://leak-lookup.com/)
 - [Snusbase](https://snusbase.com/)
 - [LeakCheck](https://leakcheck.io/)
+- [LeakRadar](https://leakradar.io/)
 
 ### Privacy & Image Search Tools
 - [TinEye Reverse Image Search](https://tineye.com/)
