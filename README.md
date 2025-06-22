@@ -86,6 +86,7 @@ A curated collection of essential resources, tools, and references for Security 
 - [Priority logs for SIEM ingestion: practitioner guidance](https://www.cyber.gov.au/sites/default/files/2025-05/Priority%20logs%20for%20SIEM%20ingestion%20-%20Practitioner%20guidance.pdf)
 - [Small business cyber security guide](https://www.cyber.gov.au/sites/default/files/2025-03/Small%20business%20cyber%20security%20guide%20%28June%202023%29.pdf)
 - [Windows event logging and forwarding](https://www.cyber.gov.au/sites/default/files/2025-03/Windows%20event%20logging%20and%20forwarding%20%28October%202021%29.pdf)
+- [Guide to Security Operations](https://sansorg.egnyte.com/dl/hlKQaLdWEC)
 - [No-Budget Living-Off-the-Land Detection](https://sansorg.egnyte.com/dd/XtOZi6h0G1/)
 - [The Fundamental Guide to Building a Better SOC](https://www.splunk.com/en_us/pdfs/resources/e-book/the-fundamental-guide-to-building-a-better-security-operation-center-soc.pdf)
 - [The State of Security 2023](https://www.splunk.com/en_us/pdfs/gated/ebooks/state-of-security-2023.pdf)
