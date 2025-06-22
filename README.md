@@ -27,10 +27,11 @@ A curated collection of essential resources, tools, and references for Security 
 
 ## 📂 Repository Structure
 ```bash
-┌── Training
+┌── Training Courses
 ├── Articles
 ├── Documents & Publications
 ├── Blogs
+├── YouTube Playlists
 ├── Shuffle Automation
 ├── CyberSec Frameworks & Models
 ├── GitHub Repositories
@@ -60,7 +61,7 @@ A curated collection of essential resources, tools, and references for Security 
 └── Exams
 ```
 
-### Training
+### Training Courses
 - [Student SOC Program Foundations training](https://microsoft.github.io/SOC/source/content/#/)
 - [DFIR Training](https://www.dfir.training/)
 - [HTB - SOC Analyst](https://academy.hackthebox.com/path/preview/soc-analyst)
@@ -106,7 +107,7 @@ A curated collection of essential resources, tools, and references for Security 
 - [InfoStealers](https://www.infostealers.com/learn-info-stealers/)
 - [Hackers Arise](https://www.hackers-arise.com/)
 
-### YouTube Playlist
+### YouTube Playlists
 - [SOC Videos](https://www.youtube.com/playlist?list=PLs4eo9Tja8bjPdHsYTbdDrPJ39ClLpmAw)
 - [SOC100 Full Playlist](https://www.youtube.com/playlist?list=PLarzZ7tJk-lF1l2PpqwPJcVAlYkLl6nLh)
 - [I Want to Be a SOC Analyst, What Do I Do?](https://www.youtube.com/playlist?list=PL4Q-ttyNIRAomhB6uWAob2RWMwCNlQ6UY)
