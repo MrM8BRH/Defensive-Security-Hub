@@ -31,6 +31,7 @@ A curated collection of essential resources, tools, and references for Security 
 ├── Articles
 ├── Documents & Publications
 ├── Blogs
+├── Shuffle Automation
 ├── CyberSec Frameworks & Models
 ├── GitHub Repositories
 ├── Email Analysis
@@ -95,6 +96,12 @@ A curated collection of essential resources, tools, and references for Security 
 - [Exploit Reversing](https://exploitreversing.com/)
 - [InfoStealers](https://www.infostealers.com/learn-info-stealers/)
 - [Hackers Arise](https://www.hackers-arise.com/)
+
+### Shuffle Automation
+- [Introducing Shuffle — an Open Source SOAR platform part 1](https://medium.com/shuffle-automation/introducing-shuffle-an-open-source-soar-platform-part-1-58a529de7d12)
+- [Getting started with Shuffle — an Open Source SOAR platform part 2](https://medium.com/shuffle-automation/getting-started-with-shuffle-an-open-source-soar-platform-part-2-1d7c67a64244)
+- [Integrating Shuffle with Virustotal and TheHive — Open Source SOAR part 3](https://medium.com/shuffle-automation/integrating-shuffle-with-virustotal-and-thehive-open-source-soar-part-3-8e2e0d3396a9)
+- [Real-time executions and IoC’s with Shuffle, TheHive and MISP — Open Source SOAR part 4](https://medium.com/shuffle-automation/indicators-and-webhooks-with-thehive-cortex-and-misp-open-source-soar-part-4-f70cde942e59)
 
 ### CyberSec Frameworks & Models
 - [Cyber Kill Chain](https://www.lockheedmartin.com/en-us/capabilities/cyber/cyber-kill-chain.html)
@@ -250,7 +257,8 @@ A curated collection of essential resources, tools, and references for Security 
 - [MISP to Splunk Integration (PDF)](https://archive.hack.lu/2018/misp42splunk_app.pdf)  
 - [MISP Instance Sizing](https://www.misp-project.org/sizing-your-misp-instance/)  
 - [MISP Deployment Training (PDF)](https://www.misp-project.org/misp-training/a.c-deployment.pdf)  
-- [Feed Metadata Defaults (JSON)](https://raw.githubusercontent.com/MISP/MISP/2.4/app/files/feed-metadata/defaults.json)  
+- [Feed Metadata Defaults (JSON)](https://raw.githubusercontent.com/MISP/MISP/2.4/app/files/feed-metadata/defaults.json)
+- [MISP Threat Intel](https://socfortress.medium.com/part-10-misp-threat-intel-68131b18f719)
 
 ### Kraven Security MISP Series
 - [Part 1: What is MISP?](https://kravensecurity.com/cyber-threat-intelligence-with-misp-part-1-what-is-misp/)  
