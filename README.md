@@ -63,6 +63,10 @@ A curated collection of essential resources, tools, and references for Security 
 ### Training
 - [Student SOC Program Foundations training](https://microsoft.github.io/SOC/source/content/#/)
 - [DFIR Training](https://www.dfir.training/)
+- [HTB - SOC Analyst](https://academy.hackthebox.com/path/preview/soc-analyst)
+- [THM - SOC Level 1](https://tryhackme.com/path/outline/soclevel1)
+- [THM - SOC Level 2](https://tryhackme.com/path/outline/soclevel2)
+- [Coursera - Security Operations Center (SOC)](https://www.coursera.org/learn/security-operations-center-soc)
 
 ### Articles
 - [A Career Guide for Your First Analyst Role and Beyond](https://www.devo.com/soc-career-guide/)
@@ -76,10 +80,15 @@ A curated collection of essential resources, tools, and references for Security 
 ### Documents & Publications
 - [Hack The Logs](https://www.hackthelogs.com/)
 - [Event Log Compendium](https://eventlog-compendium.streamlit.app/)
-- [System Monitoring](https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-monitoring)
+- [Implementing SIEM and SOAR platforms: Executive guidance](https://www.cyber.gov.au/sites/default/files/2025-06/Implementing%20SIEM%20and%20SOAR%20platforms%20-%20Executive%20guidance.pdf)
+- [Best practices for event logging and threat detection](https://www.cyber.gov.au/sites/default/files/2025-03/Best%20practices%20for%20event%20logging%20and%20threat%20detection%20%28August%202024%29.pdf)
+- [Priority logs for SIEM ingestion: practitioner guidance](https://www.cyber.gov.au/sites/default/files/2025-05/Priority%20logs%20for%20SIEM%20ingestion%20-%20Practitioner%20guidance.pdf)
+- [Small business cyber security guide](https://www.cyber.gov.au/sites/default/files/2025-03/Small%20business%20cyber%20security%20guide%20%28June%202023%29.pdf)
+- [Windows event logging and forwarding](https://www.cyber.gov.au/sites/default/files/2025-03/Windows%20event%20logging%20and%20forwarding%20%28October%202021%29.pdf)
 - [No-Budget Living-Off-the-Land Detection](https://sansorg.egnyte.com/dd/XtOZi6h0G1/)
 - [The Fundamental Guide to Building a Better SOC](https://www.splunk.com/en_us/pdfs/resources/e-book/the-fundamental-guide-to-building-a-better-security-operation-center-soc.pdf)
 - [The State of Security 2023](https://www.splunk.com/en_us/pdfs/gated/ebooks/state-of-security-2023.pdf)
+- [Splunk ES Correlation Searches Best Practices v1.3](https://github.com/inodee/threathunting-spl/blob/master/Splunk%20ES%20Correlation%20Searches%20Best%20Practices%20v1.3.pdf)
 
 ### Blogs
 - [Security Investigation](https://www.socinvestigation.com/)
@@ -96,6 +105,11 @@ A curated collection of essential resources, tools, and references for Security 
 - [Exploit Reversing](https://exploitreversing.com/)
 - [InfoStealers](https://www.infostealers.com/learn-info-stealers/)
 - [Hackers Arise](https://www.hackers-arise.com/)
+
+### YouTube Playlist
+- [SOC Videos](https://www.youtube.com/playlist?list=PLs4eo9Tja8bjPdHsYTbdDrPJ39ClLpmAw)
+- [SOC100 Full Playlist](https://www.youtube.com/playlist?list=PLarzZ7tJk-lF1l2PpqwPJcVAlYkLl6nLh)
+- [I Want to Be a SOC Analyst, What Do I Do?](https://www.youtube.com/playlist?list=PL4Q-ttyNIRAomhB6uWAob2RWMwCNlQ6UY)
 
 ### Shuffle Automation
 - [Introducing Shuffle — an Open Source SOAR platform part 1](https://medium.com/shuffle-automation/introducing-shuffle-an-open-source-soar-platform-part-1-58a529de7d12)
