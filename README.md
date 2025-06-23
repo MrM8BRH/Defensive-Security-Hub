@@ -93,6 +93,7 @@ A curated collection of essential resources, tools, and references for Security 
 - [The Fundamental Guide to Building a Better SOC](https://www.splunk.com/en_us/pdfs/resources/e-book/the-fundamental-guide-to-building-a-better-security-operation-center-soc.pdf)
 - [The State of Security 2023](https://www.splunk.com/en_us/pdfs/gated/ebooks/state-of-security-2023.pdf)
 - [Splunk ES Correlation Searches Best Practices v1.3](https://github.com/inodee/threathunting-spl/blob/master/Splunk%20ES%20Correlation%20Searches%20Best%20Practices%20v1.3.pdf)
+- [ohmymalware](https://ohmymalware.com/)
 
 ### Blogs
 - [Security Investigation](https://www.socinvestigation.com/)
