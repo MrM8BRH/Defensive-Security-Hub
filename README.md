@@ -58,7 +58,7 @@ A curated collection of essential resources, tools, and references for Security 
 ├── OSINT Medium Bloggers
 ├── OSINT Resources
 ├── Telegram Channels
-└── Exams
+└── Exams & Quizzes
 ```
 
 ### Training Courses
@@ -554,6 +554,7 @@ A curated collection of essential resources, tools, and references for Security 
 - [Netsec](https://t.me/RNetsec)
 - [Blue Team | SOC | DFIR | Cloud Security](https://t.me/socanalyst)
 
-### Exams
+### Exams & Quizzes
 - [CompTIA Security+ SY0-701 Quiz](https://gourabdg47.github.io/assets/projects/security_exam_quiz/)
 - [ISO 27001 Lead Auditor](https://learn.mastermindassurance.com/products/courses/iso-27001-lead-auditor)
+- [AiCybr Practice Center](https://aicybr.com/quiz)
