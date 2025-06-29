@@ -154,7 +154,6 @@ A curated collection of essential resources, tools, and references for Security 
 - [SOC2](https://www.aicpa-cima.com/topic/audit-assurance/audit-and-assurance-greater-than-soc-2)
 
 ### GitHub Repositories
-- [eXtended Threat-informed Defence (XTID)](https://github.com/jalacloud/Extended-Threat-Informed-Defence)
 - [OSINT Dashboard](https://github.com/ekky19/osint)
 - [Cybersecurity Resources and Learning Journey](https://github.com/MrM8BRH/CRLJ)
 - [Splunk](https://github.com/MrM8BRH/Splunk)
@@ -215,6 +214,9 @@ A curated collection of essential resources, tools, and references for Security 
 ### Threat Hunting
 - [MITRE ATT&amp;CK](https://attack.mitre.org/)
 - [MITRE ATT&amp;CK Groups](https://attack.mitre.org/groups/)
+- [Threathunting Frameworks](https://huntbook.predefender.com/part-1/frameworks/threathunting/index.html)
+- [Threat Hunt Book by Predefender](https://huntbook.predefender.com/)
+- [Threat Hunting Maturity Model Explained With Examples](https://socprime.com/blog/threat-hunting-maturity-model-explained-with-examples/)
 - [eXtended Threat-informed Defence (XTID)](https://github.com/jalacloud/Extended-Threat-Informed-Defence)
 - [AttackRuleMap](https://attackrulemap.com/)
 - [Threat Hunting Keywords](https://github.com/mthcht/ThreatHunting-Keywords)
