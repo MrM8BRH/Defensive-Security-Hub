@@ -71,6 +71,11 @@ A curated collection of essential resources, tools, and references for Security 
 - [Coursera - Security Operations Center (SOC)](https://www.coursera.org/learn/security-operations-center-soc)
 
 ### Articles
+- [Becoming a Detection Engineering Contractor, Part I — The Motivation](https://detect.fyi/becoming-a-detection-engineering-contractor-part-i-the-motivation-3d5767d1d086)
+- [Becoming a Detection Engineering Contractor, Part II— The Preparation](https://detect.fyi/becoming-a-detection-engineering-contractor-part-ii-the-preparation-4385c58c1d15)
+- [Spray passwords, avoid lockouts](https://en.hackndo.com/password-spraying-lockout/)
+- [NTLM Relay](https://en.hackndo.com/ntlm-relay/)
+- [Kerberos Delegation](https://en.hackndo.com/constrained-unconstrained-delegation/)
 - [A Career Guide for Your First Analyst Role and Beyond](https://www.devo.com/soc-career-guide/)
 - [Security Operation Center](https://www.splunk.com/en_us/blog/learn/soc-security-operation-center.html)
 - [Measuring Detection Coverage](https://ipurple.team/2024/10/10/measuring-detection-coverage/)
@@ -96,13 +101,18 @@ A curated collection of essential resources, tools, and references for Security 
 - [ohmymalware](https://ohmymalware.com/)
 
 ### Blogs
+- [Detect FYI](https://detect.fyi/)
+- [Nextron Systems](https://www.nextron-systems.com/blog/)
+- [FalconForce](https://medium.com/falconforce)
+- [SpecterOps](https://posts.specterops.io/)
+- [Red Canary](https://redcanary.com/blog/)
+- [Huntress](https://www.huntress.com/blog)
 - [Security Investigation](https://www.socinvestigation.com/)
 - [The DFIR Report](https://thedfirreport.com/)
 - [Know Your Adversary](https://www.knowyouradversary.ru/)
 - [CyberTriage](https://www.cybertriage.com/blog/)
 - [Huntress](https://www.huntress.com/blog/)
 - [HackForLab](https://hackforlab.com/category/threat-intelligence/)
-- [Detection Engineering Collective](https://detect.fyi/)
 - [Cyberdefense](https://www.orangecyberdefense.com/global/blog/threat)
 - [Hadess](https://hadess.io/blog/)
 - [eCrime](https://ecrime.ch/media.php)
@@ -191,6 +201,7 @@ A curated collection of essential resources, tools, and references for Security 
 - [Digital Forensics and Incident Response](https://www.jaiminton.com/cheatsheet/DFIR/)
 
 ### Websites and Tools
+- [Detections AI](https://detections.ai/landing#)
 - [SOC Resources for Daily Operations](https://cybersectalk.com/soc-resources/)
 - [Suricata](https://suricata.io/)
 - [Snort](https://www.snort.org/)
