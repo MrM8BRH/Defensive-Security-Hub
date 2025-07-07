@@ -65,6 +65,7 @@ A curated collection of essential resources, tools, and references for Security 
 - [Student SOC Program Foundations training](https://microsoft.github.io/SOC/source/content/#/)
 - [DFIR Training](https://www.dfir.training/)
 - [LetsDefend - SOC Analyst Learning Path](https://app.letsdefend.io/path/soc-analyst-learning-path)
+- [CyberDefenders](https://cyberdefenders.org/blue-team-labs/)
 - [HTB - SOC Analyst](https://academy.hackthebox.com/path/preview/soc-analyst)
 - [THM - SOC Level 1](https://tryhackme.com/path/outline/soclevel1)
 - [THM - SOC Level 2](https://tryhackme.com/path/outline/soclevel2)
@@ -164,6 +165,7 @@ A curated collection of essential resources, tools, and references for Security 
 - [SOC2](https://www.aicpa-cima.com/topic/audit-assurance/audit-and-assurance-greater-than-soc-2)
 
 ### GitHub Repositories
+- [Detection Engineering Starter Pack](https://github.com/rfackroyd/detection-engineering-starter-pack)
 - [OSINT Dashboard](https://github.com/ekky19/osint)
 - [Cybersecurity Resources and Learning Journey](https://github.com/MrM8BRH/CRLJ)
 - [Splunk](https://github.com/MrM8BRH/Splunk)
