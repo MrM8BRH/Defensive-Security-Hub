@@ -31,9 +31,9 @@ A curated collection of essential resources, tools, and references for Security 
 ├── Articles
 ├── Documents & Publications
 ├── Blogs
-├── YouTube Playlists
+├── YouTube Playlists/Videos
 ├── Shuffle Automation
-├── CyberSec Frameworks & Models
+├── CyberSec Frameworks & Models / Risk Assessment
 ├── GitHub Repositories
 ├── Email Analysis
 ├── File Analysis
@@ -82,6 +82,9 @@ A curated collection of essential resources, tools, and references for Security 
 - [Measuring Detection Coverage](https://ipurple.team/2024/10/10/measuring-detection-coverage/)
 - [A Sysmon Event ID Breakdown](https://www.blackhillsinfosec.com/a-sysmon-event-id-breakdown/)
 - [Threat Hunting --- Suspicious Windows Services](https://detect.fyi/threat-hunting-suspicious-windows-service-names-2f0dceea204c)
+- [Windows Logging Basics](https://www.loggly.com/ultimate-guide/windows-logging-basics/)
+- [Troubleshooting with Windows Logs](https://www.loggly.com/ultimate-guide/troubleshooting-with-windows-logs/)
+- [Centralizing Windows Logs](https://www.loggly.com/ultimate-guide/centralizing-windows-logs/)
 - [Ransomware identification for the judicious analyst](https://www.gdatasoftware.com/blog/2019/06/31666-ransomware-identification-for-the-judicious-analyst)
 - [How SELinux deny rules improve system security ](https://developers.redhat.com/articles/2025/06/04/how-selinux-deny-rules-improve-system-security#)
 
@@ -122,12 +125,15 @@ A curated collection of essential resources, tools, and references for Security 
 - [InfoStealers](https://www.infostealers.com/learn-info-stealers/)
 - [Hackers Arise](https://www.hackers-arise.com/)
 
-### YouTube Playlists
+### YouTube Playlists/Videos
+- [What is a SIEM](https://www.youtube.com/playlist?list=PLHh9jhztlMyp8lyKXt9orVM57ygW_ihPS)
 - [SOC Videos](https://www.youtube.com/playlist?list=PLs4eo9Tja8bjPdHsYTbdDrPJ39ClLpmAw)
 - [SOC100 Full Playlist](https://www.youtube.com/playlist?list=PLarzZ7tJk-lF1l2PpqwPJcVAlYkLl6nLh)
 - [I Want to Be a SOC Analyst, What Do I Do?](https://www.youtube.com/playlist?list=PL4Q-ttyNIRAomhB6uWAob2RWMwCNlQ6UY)
 - [Malware Traffic Analysis with Wireshark](https://www.youtube.com/playlist?list=PLgLVwK69OPbyjchDxaEJ2lGblLttTZitD)
 - [Wireshark Masterclass](https://www.youtube.com/playlist?list=PLW8bTPfXNGdC5Co0VnBK1yVzAwSSphzpJ)
+- [PowerSIEM - Analyzing Sysmon Events with PowerShell - Dynamic Malware Analysis](https://www.youtube.com/watch?v=MvfhIydxFmw)
+- [Advanced Windows Logging - Finding What AV Missed](https://www.youtube.com/watch?v=C2cgvpN44is)
 - [Malicious Document Analysis](https://www.youtube.com/playlist?list=PLgLVwK69OPbweqTaaaawfFvznVlk86Zke)
 - [Understanding Runtime Linking in Windows: A Deep Dive for Reverse Engineers and Malware Analysts](https://www.youtube.com/playlist?list=PLHJns8WZXCduYo4F5XJgIY0YyQJHT5dLE)
 - [Malware Analysis](https://www.youtube.com/playlist?list=PLHJns8WZXCdueUdUTn-xw-eiBZuqSUGPG)
@@ -150,19 +156,25 @@ A curated collection of essential resources, tools, and references for Security 
 - [Integrating Shuffle with Virustotal and TheHive — Open Source SOAR part 3](https://medium.com/shuffle-automation/integrating-shuffle-with-virustotal-and-thehive-open-source-soar-part-3-8e2e0d3396a9)
 - [Real-time executions and IoC’s with Shuffle, TheHive and MISP — Open Source SOAR part 4](https://medium.com/shuffle-automation/indicators-and-webhooks-with-thehive-cortex-and-misp-open-source-soar-part-4-f70cde942e59)
 
-### CyberSec Frameworks & Models
+### CyberSec Frameworks & Models / Risk Assessment
 - [Cyber Kill Chain](https://www.lockheedmartin.com/en-us/capabilities/cyber/cyber-kill-chain.html)
 - [MITRE ATT&CK](https://attack.mitre.org/)
+- [ISACA](https://www.isaca.org/)
 - [NIST](https://www.nist.gov/)
 - [NIST Risk Assessment Template](https://www.securityscientist.net/nist-risk-assessment-template/)
 - [PCI DSS](https://www.pcisecuritystandards.org/)
 - [ISO](https://www.iso.org/standards.html)
 - [HIPPA](https://www.hhs.gov/hipaa/for-professionals/privacy/laws-regulations/index.html)
+- [ASTP](https://www.healthit.gov/)
 - [COBIT](https://www.isaca.org/resources/cobit)
-- [CCM](https://cloudsecurityalliance.org/research/cloud-controls-matrix/)
+- [CSA](https://cloudsecurityalliance.org/)
 - [CIS Benchmarks](https://www.cisecurity.org/cis-benchmarks)
 - [SCF](https://securecontrolsframework.com/)
 - [SOC2](https://www.aicpa-cima.com/topic/audit-assurance/audit-and-assurance-greater-than-soc-2)
+- [FAIR](https://www.fairinstitute.org/)
+- [IACS](https://iacs.org.uk/)
+- [ISA](https://www.isa.org/)
+- [CESG](https://www.gov.uk/government/organisations/cesg)
 
 ### GitHub Repositories
 - [Detection Engineering Starter Pack](https://github.com/rfackroyd/detection-engineering-starter-pack)
@@ -240,6 +252,7 @@ A curated collection of essential resources, tools, and references for Security 
 - [Majestic Million Websites](https://majestic.com/reports/majestic-million)
 
 ### DFIR
+- [IRM-2022 (Incident Response Methodologies 2022)](https://github.com/certsocietegenerale/IRM/tree/main)
 - [AboutDFIR](https://aboutdfir.com/)
 - [DFUR Diva](https://dfirdiva.com/)
 - [Forensic Focus](https://www.forensicfocus.com/)
