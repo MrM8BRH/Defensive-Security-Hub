@@ -62,13 +62,14 @@ A curated collection of essential resources, tools, and references for Security 
 ```
 
 ### Training Courses
-- [Student SOC Program Foundations training](https://microsoft.github.io/SOC/source/content/#/)
 - [DFIR Training](https://www.dfir.training/)
+- [CYBER 5W](https://academy.cyber5w.com/)
 - [LetsDefend - SOC Analyst Learning Path](https://app.letsdefend.io/path/soc-analyst-learning-path)
 - [CyberDefenders](https://cyberdefenders.org/blue-team-labs/)
 - [HTB - SOC Analyst](https://academy.hackthebox.com/path/preview/soc-analyst)
 - [THM - SOC Level 1](https://tryhackme.com/path/outline/soclevel1)
 - [THM - SOC Level 2](https://tryhackme.com/path/outline/soclevel2)
+- [Student SOC Program Foundations training](https://microsoft.github.io/SOC/source/content/#/)
 - [Coursera - Security Operations Center (SOC)](https://www.coursera.org/learn/security-operations-center-soc)
 
 ### Articles
