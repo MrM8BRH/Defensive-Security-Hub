@@ -126,6 +126,8 @@ A curated collection of essential resources, tools, and references for Security 
 - [Exploit Reversing](https://exploitreversing.com/)
 - [InfoStealers](https://www.infostealers.com/learn-info-stealers/)
 - [Hackers Arise](https://www.hackers-arise.com/)
+- [David Varghese](https://blog.davidvarghese.net/)
+- [Ogmini](https://ogmini.github.io/)
 
 ### YouTube Playlists/Videos
 - [What is a SIEM](https://www.youtube.com/playlist?list=PLHh9jhztlMyp8lyKXt9orVM57ygW_ihPS)
