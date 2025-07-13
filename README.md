@@ -69,6 +69,7 @@ A curated collection of essential resources, tools, and references for Security 
 - [HTB - SOC Analyst](https://academy.hackthebox.com/path/preview/soc-analyst)
 - [THM - SOC Level 1](https://tryhackme.com/path/outline/soclevel1)
 - [THM - SOC Level 2](https://tryhackme.com/path/outline/soclevel2)
+- [XINTRA](https://www.xintra.org/training)
 - [Student SOC Program Foundations training](https://microsoft.github.io/SOC/source/content/#/)
 - [Coursera - Security Operations Center (SOC)](https://www.coursera.org/learn/security-operations-center-soc)
 
