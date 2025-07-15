@@ -93,7 +93,6 @@ A curated collection of essential resources, tools, and references for Security 
 - [How SELinux deny rules improve system security ](https://developers.redhat.com/articles/2025/06/04/how-selinux-deny-rules-improve-system-security#)
 - [Cyber Threat Intelligence Explained](https://www.crowdstrike.com/en-us/cybersecurity-101/threat-intelligence/)
 - [Indicators of Compromise (IoCs): An Introductory Guide](https://www.splunk.com/en_us/blog/learn/ioc-indicators-of-compromise.html)
-- 
 
 ### Documents & Publications
 - [Hack The Logs](https://www.hackthelogs.com/)
