@@ -111,6 +111,7 @@ A curated collection of essential resources, tools, and references for Security 
 - [ohmymalware](https://ohmymalware.com/)
 
 ### Blogs
+- [CrowdStrike Blog](https://www.crowdstrike.com/en-us/blog/)
 - [Detect FYI](https://detect.fyi/)
 - [Nextron Systems](https://www.nextron-systems.com/blog/)
 - [FalconForce](https://medium.com/falconforce)
