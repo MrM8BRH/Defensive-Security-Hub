@@ -70,6 +70,7 @@ A curated collection of essential resources, tools, and references for Security 
 - [THM - SOC Level 1](https://tryhackme.com/path/outline/soclevel1)
 - [THM - SOC Level 2](https://tryhackme.com/path/outline/soclevel2)
 - [XINTRA](https://www.xintra.org/training)
+- [Cyber Dojo](https://cyber-dojo.co/courses/)
 - [In-Depth Investigation & Threat Hunting](https://maltrak.com/livetraining/threathunting)
 - [Student SOC Program Foundations training](https://microsoft.github.io/SOC/source/content/#/)
 - [Coursera - Security Operations Center (SOC)](https://www.coursera.org/learn/security-operations-center-soc)
@@ -90,6 +91,9 @@ A curated collection of essential resources, tools, and references for Security 
 - [Centralizing Windows Logs](https://www.loggly.com/ultimate-guide/centralizing-windows-logs/)
 - [Ransomware identification for the judicious analyst](https://www.gdatasoftware.com/blog/2019/06/31666-ransomware-identification-for-the-judicious-analyst)
 - [How SELinux deny rules improve system security ](https://developers.redhat.com/articles/2025/06/04/how-selinux-deny-rules-improve-system-security#)
+- [Cyber Threat Intelligence Explained](https://www.crowdstrike.com/en-us/cybersecurity-101/threat-intelligence/)
+- [Indicators of Compromise (IoCs): An Introductory Guide](https://www.splunk.com/en_us/blog/learn/ioc-indicators-of-compromise.html)
+- 
 
 ### Documents & Publications
 - [Hack The Logs](https://www.hackthelogs.com/)
