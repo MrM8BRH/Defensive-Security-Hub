@@ -71,6 +71,8 @@ A curated collection of essential resources, tools, and references for Security 
 - [THM - SOC Level 2](https://tryhackme.com/path/outline/soclevel2)
 - [XINTRA](https://www.xintra.org/training)
 - [Cyber Dojo](https://cyber-dojo.co/courses/)
+- [13Cubed](https://training.13cubed.com/)
+- [SOCRadar](https://academy.socradar.io/)
 - [In-Depth Investigation & Threat Hunting](https://maltrak.com/livetraining/threathunting)
 - [Student SOC Program Foundations training](https://microsoft.github.io/SOC/source/content/#/)
 - [Coursera - Security Operations Center (SOC)](https://www.coursera.org/learn/security-operations-center-soc)
