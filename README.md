@@ -76,6 +76,9 @@ A curated collection of essential resources, tools, and references for Security 
 - [In-Depth Investigation & Threat Hunting](https://maltrak.com/livetraining/threathunting)
 - [Student SOC Program Foundations training](https://microsoft.github.io/SOC/source/content/#/)
 - [Coursera - Security Operations Center (SOC)](https://www.coursera.org/learn/security-operations-center-soc)
+- [Web Security Academy](https://portswigger.net/web-security)
+- [CryptoHack](https://cryptohack.org/)
+- [OverTheWire](https://overthewire.org/wargames/)
 
 ### Articles
 - [Becoming a Detection Engineering Contractor, Part I — The Motivation](https://detect.fyi/becoming-a-detection-engineering-contractor-part-i-the-motivation-3d5767d1d086)
