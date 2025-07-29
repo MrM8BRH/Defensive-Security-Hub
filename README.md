@@ -70,10 +70,12 @@ A curated collection of essential resources, tools, and references for Security 
 - [HTB - SOC Analyst](https://academy.hackthebox.com/path/preview/soc-analyst)
 - [THM - SOC Level 1](https://tryhackme.com/path/outline/soclevel1)
 - [THM - SOC Level 2](https://tryhackme.com/path/outline/soclevel2)
+- [ACE Responder](https://www.aceresponder.com/)
 - [XINTRA](https://www.xintra.org/training)
 - [Cyber Dojo](https://cyber-dojo.co/courses/)
 - [13Cubed](https://training.13cubed.com/)
 - [SOCRadar](https://academy.socradar.io/)
+- [NCSC - Exercise in a Box](https://www.ncsc.gov.uk/section/exercise-in-a-box/overview/)
 - [In-Depth Investigation & Threat Hunting](https://maltrak.com/livetraining/threathunting)
 - [Student SOC Program Foundations training](https://microsoft.github.io/SOC/source/content/#/)
 - [Coursera - Security Operations Center (SOC)](https://www.coursera.org/learn/security-operations-center-soc)
@@ -117,6 +119,7 @@ A curated collection of essential resources, tools, and references for Security 
 - [ohmymalware](https://ohmymalware.com/)
 
 ### Blogs
+- [Awesome Threat Intel Blogs](https://github.com/muchdogesec/awesome_threat_intel_blogs)
 - [CrowdStrike Blog](https://www.crowdstrike.com/en-us/blog/)
 - [Detect FYI](https://detect.fyi/)
 - [Nextron Systems](https://www.nextron-systems.com/blog/)
@@ -192,6 +195,7 @@ A curated collection of essential resources, tools, and references for Security 
 - [CESG](https://www.gov.uk/government/organisations/cesg)
 
 ### GitHub Repositories
+- [SOC-RESSOURCES](https://github.com/DXC-0/SOC-Ressources)
 - [Detection Engineering Starter Pack](https://github.com/rfackroyd/detection-engineering-starter-pack)
 - [OSINT Dashboard](https://github.com/ekky19/osint)
 - [Cybersecurity Resources and Learning Journey](https://github.com/MrM8BRH/CRLJ)
@@ -601,3 +605,4 @@ A curated collection of essential resources, tools, and references for Security 
 - [CompTIA Security+ SY0-701 Quiz](https://gourabdg47.github.io/assets/projects/security_exam_quiz/)
 - [ISO 27001 Lead Auditor](https://learn.mastermindassurance.com/products/courses/iso-27001-lead-auditor)
 - [AiCybr Practice Center](https://aicybr.com/quiz)
+- [CertPreps](https://certpreps.com/)
