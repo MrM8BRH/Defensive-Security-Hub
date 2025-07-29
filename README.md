@@ -102,6 +102,7 @@ A curated collection of essential resources, tools, and references for Security 
 - [CrowdStrike - Threat Actors Explained](https://www.crowdstrike.com/en-us/cybersecurity-101/threat-intelligence/threat-actor/)
 - [CrowdStrike - What is an Attack Surface?](https://www.crowdstrike.com/en-us/cybersecurity-101/exposure-management/attack-surface/)
 - [CrowdStrike - AI SIEM](https://www.crowdstrike.com/en-us/cybersecurity-101/next-gen-siem/ai-siem/)
+- [SANS - Incident Response](https://www.sans.org/security-resources/glossary-of-terms/incident-response)
 - [Splunk - Security Operation Center](https://www.splunk.com/en_us/blog/learn/soc-security-operation-center.html)
 - [Splunk - Indicators of Compromise (IoCs): An Introductory Guide](https://www.splunk.com/en_us/blog/learn/ioc-indicators-of-compromise.html)
 - [A Career Guide for Your First Analyst Role and Beyond](https://www.devo.com/soc-career-guide/)
