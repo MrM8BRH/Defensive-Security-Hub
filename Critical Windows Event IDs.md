@@ -1,127 +1,182 @@
-| Event ID |                                                Description                                                |           Category           |              Subcategory             |                    Recommended Monitoring                    |                 Common Threats                 |     False Positive   Scenarios     |
-|----------|-----------------------------------------------------------------------------------------------------------|------------------------------|--------------------------------------|----------------------------------------------------------------|------------------------------------------------|------------------------------------|
-| 1100     | The event logging   service has shut down                                                                 | ----                         | Service shutdown                     | Monitor for   unexpected service shutdowns                     | Log tampering,   Anti-forensics                | System shutdown,   Maintenance     |
-| 1102     | The audit log was   cleared                                                                               | -----                        | Log clear                            | Alert on all audit   log clears                                | Evidence destruction,   Attack cleanup         | Routine log   maintenance          |
-| 4611     | A trusted logon   process has been registered with the Local Security Authority                           | System                       | Security System   Extension          | Monitor for new logon   processes                              | Credential theft,   Authentication bypass      | Software installation              |
-| 4616     | The system time was   changed                                                                             | System                       | Security State Change                | Track time changes   outside NTP                               | Log manipulation,   Time-based attacks         | Time zone changes,   NTP updates   |
-| 4618     | A monitored security   event pattern has occurred                                                         | System                       | System Integrity                     | Immediate   investigation of patterns                          | Policy violations,   Attack patterns           | Legitimate pattern   matches       |
-| 4624     | An account was   successfully logged on                                                                   | Logon/Logoff                 | Logon                                | Monitor for unusual   patterns                                 | Unauthorized access,   Lateral movement        | Normal user activity               |
-| 4625     | An account failed to   log on                                                                             | Logon/Logoff                 | Logon                                | Alert on multiple   failures                                   | Brute force attacks,   Password spraying       | Forgotten passwords                |
-| 4634     | An account was logged   off                                                                               | Logon/Logoff                 | Logon                                | Baseline normal   patterns                                     | Session hijacking   detection                  | Normal user logoffs                |
-| 4647     | User initiated logoff                                                                                     | Logon/Logoff                 | Logon                                | Compare with 4634   events                                     | Forced logoffs,   Session termination          | Normal user logoffs                |
-| 4648     | A logon was attempted   using explicit credentials                                                        | Logon/Logoff                 | Logon                                | Alert on unexpected   usage                                    | Pass-the-hash,   Credential abuse              | RunAs operations                   |
-| 4657     | A registry value was   modified                                                                           | Object Access                | Registry                             | Monitor critical keys                                          | Persistence,   Configuration changes           | Software updates                   |
-| 4670     | Permissions on an   object were changed                                                                   | Object Access                | File System,Registry                 | Track sensitive   object changes                               | Privilege escalation,   Access control changes | Legitimate permission   updates    |
-| 4672     | Special privileges   assigned to new logon                                                                | Logon/Logoff                 | Special Logon                        | Alert on privilege   assignments                               | Privilege escalation,   Admin abuse            | Admin logons                       |
-| 4688     | A new process has   been created                                                                          | Process Tracking             | Process Creation                     | Monitor suspicious   processes                                 | Malware execution,   Living off the land       | Normal process   creation          |
-| 4689     | A process has exited                                                                                      | Process Tracking             | Process Termination                  | Compare with 4688   events                                     | Crash analysis,   Process termination          | Normal process exits               |
-| 4692     | Backup of data   protection master key was attempted                                                      | Process Tracking             | DPAPI Activity                       | Alert on all attempts                                          | Key theft,   Unauthorized backup               | Authorized key backup              |
-| 4693     | Recovery of data   protection master key was attempted                                                    | Process Tracking             | DPAPI Activity                       | Alert on all attempts                                          | Key compromise,   Unauthorized recovery        | Authorized key   recovery          |
-| 4695     | Unprotection of   auditable protected data was attempted                                                  | Process Tracking             | DPAPI Activity                       | Alert on all attempts                                          | Data exposure,   Protection removal            | Authorized data   access           |
-| 4697     | A service was   installed in the system                                                                   | System                       | Security System   Extension          | Alert on new services                                          | Persistence, Backdoor   installation           | Legitimate service   installation  |
-| 4698     | A scheduled task was   created                                                                            | Object Access                | Other Object Access   Events         | Monitor new task   creation                                    | Persistence,   Scheduled execution             | Legitimate task   scheduling       |
-| 4699     | A scheduled task was   deleted.                                                                           | Object Access                | Other Object Access   Events         | Monitor for   unexpected task deletions                        | Persistence removal                            | Administrative tasks               |
-| 4700     | A scheduled task was   enabled.                                                                           | Object Access                | Other Object Access   Events         | Monitor for   unauthorized task enabling                       | Task misuse                                    | Administrative tasks               |
-| 4702     | A scheduled task was   updated.                                                                           | Object Access                | Other Object Access   Events         | Monitor for   unauthorized task updates                        | Persistence   mechanisms                       | Administrative tasks               |
-| 4703     | A user right was   adjusted.                                                                              | Policy Change                | Authorization Policy   Change        | Monitor for   suspicious privilege changes                     | Privilege escalation                           | Normal administrative   activity   |
-| 4704     | A user right was   assigned.                                                                              | Policy Change                | Audit Policy Change                  | Monitor for unusual   privilege assignments                    | Privilege escalation                           | Administrative   activity          |
-| 4715     | The audit policy   (SACL) on an object was changed.                                                       | Policy Change                | Modification                         | Monitor for   unauthorized audit policy changes                | Audit log tampering                            | Policy updates                     |
-| 4717     | System security   access was granted to an account.                                                       | Policy Change                | Authentication Policy   Change       | Monitor for   unauthorized access grants                       | Privilege escalation                           | Administrative tasks               |
-| 4718     | System security   access was removed from an account.                                                     | Policy Change                | Authentication Policy   Change       | Monitor for   unauthorized access removal                      | Privilege abuse                                | Administrative tasks               |
-| 4719     | System audit policy   was changed.                                                                        | Policy Change                | Audit Policy Change                  | Monitor for   unauthorized audit policy changes                | Audit log tampering                            | Policy updates                     |
-| 4720     | A user account was   created.                                                                             | Account Management           | User Account   Management            | Monitor for   unauthorized account creation                    | Privilege escalation,   Backdoor accounts      | Normal administrative   tasks      |
-| 4722     | A user account was   enabled.                                                                             | Account Management           | User Account   Management            | Monitor for   re-enabling of disabled accounts                 | Privilege escalation                           | Administrative   activity          |
-| 4723     | An attempt was made   to change an account's password.                                                    | Account Management           | User Account   Management            | Monitor for   unauthorized password change attempts            | Account compromise                             | Normal user activity               |
-| 4724     | An attempt was made   to reset an account's password.                                                     | Account Management           | User Account   Management            | Monitor for   unauthorized password reset attempts             | Account compromise                             | Normal user activity               |
-| 4725     | A user account was   disabled.                                                                            | Account Management           | User Account   Management            | Monitor for   unexpected account disabling                     | Privilege abuse                                | Normal administrative   tasks      |
-| 4726     | A user account was   deleted.                                                                             | Account Management           | User Account   Management            | Monitor for   unauthorized account deletions                   | Privilege abuse                                | Normal administrative   tasks      |
-| 4731     | A security-enabled   local group was created.                                                             | Account Management           | Security Group   Management          | Monitor for   unauthorized group creation                      | Privilege escalation                           | Normal administrative   tasks      |
-| 4732     | A member was added to   a security-enabled local group.                                                   | Account Management           | Security Group   Management          | Monitor for   unauthorized group membership additions          | Privilege escalation                           | Normal administrative   tasks      |
-| 4733     | A member was removed   from a security-enabled local group.                                               | Account Management           | Security Group   Management          | Monitor for   unauthorized group membership removals           | Privilege abuse                                | Normal administrative   tasks      |
-| 4734     | A security-enabled   local group was deleted.                                                             | Account Management           | Security Group   Management          | Monitor for   unauthorized group deletions                     | Privilege abuse                                | Normal administrative   tasks      |
-| 4735     | A security-enabled   local group was changed.                                                             | Account Management           | Security Group   Management          | Monitor for   unexpected group modifications                   | Privilege escalation                           | Normal administrative   tasks      |
-| 4738     | A user account was   changed.                                                                             | Account Management           | User Account   Management            | Monitor for   unexpected account changes                       | Account takeover                               | Normal administrative   tasks      |
-| 4739     | Domain Policy was   changed.                                                                              | Account Management           | Other Account   Management Events    | Monitor for   unauthorized domain policy changes               | Policy tampering                               | Planned updates                    |
-| 4740     | A user account was   locked out.                                                                          | Account Management           | User Account   Management            | Monitor for frequent   lockouts                                | Brute force attacks                            | User error                         |
-| 4767     | A user account was   unlocked.                                                                            | Account Management           | User Account   Management            | Monitor for   unexpected account unlocks                       | Privilege abuse                                | Administrative tasks               |
-| 4776     | The domain controller   attempted to validate the credentials for an account.                             | Account Logon                | Credential Validation                | Monitor for failed   credential validations                    | Brute force attacks                            | Normal user activity               |
-| 4778     | A session was   reconnected to a Window Station.                                                          | Logon/Logoff                 | Other Logon/Logoff   Events          | Monitor for   unexpected session reconnections                 | Session hijacking                              | Normal user activity               |
-| 4779     | A session was   disconnected from a Window Station.                                                       | Logon/Logoff                 | Other Logon/Logoff   Events          | Monitor for   unexpected session disconnections                | Session hijacking                              | Normal user activity               |
-| 4780     | The ACL was set on   accounts which are members of administrators groups.                                 | Account Management           | User Account   Management            | Monitor for   unauthorized ACL changes                         | Privilege escalation                           | Administrative tasks               |
-| 4781     | The name of an   account was changed.                                                                     | Account Management           | User Account   Management            | Monitor for   unexpected account name changes                  | Account impersonation                          | Administrative tasks               |
-| 4782     | The password hash of   an account was accessed.                                                           | Account Management           | Other Account   Management Events    | Monitor for   unauthorized password hash access                | Credential theft                               | Administrative tasks               |
-| 4793     | The Password Policy   Checking API was called.                                                            | Account Management           | Other Account   Management Events    | Monitor for frequent   password policy API calls               | Policy tampering                               | Planned operations                 |
-| 4798     | A user's local group   membership was enumerated.                                                         | Account Management           | User Account   Management            | Monitor for frequent   group membership enumerations           | Reconnaissance                                 | Normal administrative   tasks      |
-| 4800     | The workstation was   locked.                                                                             | Logon/Logoff                 | Other Logon/Logoff   Events          | Monitor for unusual   workstation lock activities              | Suspicious user   behavior                     | Normal user activity               |
-| 4801     | The workstation was   unlocked.                                                                           | Logon/Logoff                 | Other Logon/Logoff   Events          | Monitor for unusual   workstation unlock activities            | Suspicious user   behavior                     | Normal user activity               |
-| 4803     | The screen saver was   dismissed.                                                                         | Other Logon/Logoff   Events  | Screen Saver                         | Monitor for unusual   activity after screen saver dismissal    | Unauthorized access                            | Normal user activity               |
-| 4816     | RPC detected an   integrity violation while decrypting an incoming message.                               | Process Tracking             | RPC Events                           | Monitor for RPC   integrity violations                         | Protocol tampering                             | Network issues                     |
-| 4817     | Auditing settings on   object were changed.                                                               | Policy Change                | Audit Policy Change                  | Monitor for   unauthorized auditing changes                    | Policy tampering                               | Planned updates                    |
-| 4882     | The security   permissions for Certificate Services changed.                                              | Object Access                | Certification   Services             | Monitor for   unexpected certificate permissions changes       | Certificate misuse                             | Administrative tasks               |
-| 4885     | The audit filter for   Certificate Services changed.                                                      | Object Access                | Certification   Services             | Monitor for   unauthorized audit filter changes                | Policy tampering                               | Planned updates                    |
-| 4890     | The certificate   manager settings for Certificate Services changed.                                      | Object Access                | Certification   Services             | Monitor for   unauthorized manager settings changes            | Configuration   tampering                      | Administrative tasks               |
-| 4906     | The CrashOnAuditFail   value has changed.                                                                 | Policy Change                | Audit Policy Change                  | Monitor for changes   to the CrashOnAuditFail setting          | Audit bypass                                   | Planned updates                    |
-| 4907     | Auditing settings on   object changed.                                                                    | Policy Change                | Audit Policy Change                  | Monitor for   unauthorized auditing changes                    | Policy tampering                               | Planned updates                    |
-| 4908     | Special Groups Logon   table modified.                                                                    | Policy Change                | Audit Policy Change                  | Monitor for changes   to Special Groups Logon                  | Privilege escalation                           | Administrative tasks               |
-| 4912     | Per-User Audit Policy   changed.                                                                          | Policy Change                | Audit Policy Change                  | Monitor for unusual   per-user policy applications             | Policy tampering                               | Planned operations                 |
-| 4964     | Special groups   assigned to a new logon.                                                                 | Logon/Logoff                 | Special Logon                        | Monitor for   unexpected special group assignments             | Privilege escalation                           | Administrative tasks               |
-| 5038     | Code integrity   determined that the image hash of a file is not valid.                                   | System                       | System Integrity                     | Monitor for invalid   file hashes                              | Malware infection                              | File corruption                    |
-| 5142     | Network share object   added.                                                                             | Object Access                | File Share                           | Monitor for   unauthorized network shares                      | Unauthorized data   sharing                    | Administrative tasks               |
-| 5143     | Network share object   changed.                                                                           | Object Access                | File Share                           | Monitor for changes   to critical network shares               | Data leakage                                   | Policy updates                     |
-| 5144     | Network share object   deleted.                                                                           | Object Access                | File Share                           | Monitor for deleted   network shares                           | Unauthorized data   removal                    | Maintenance tasks                  |
-| 5146     | The Windows Filtering   Platform has blocked a packet.                                                    | System                       | Other System Events                  | Monitor for   unexpected packet blocks                         | Malicious traffic                              | Network   misconfiguration         |
-| 5158     | The Windows Filtering   Platform has permitted a bind to a local port.                                    | Object Access                | Filtering Platform   Connection      | Monitor for unusual   port bindings                            | Unauthorized services                          | Legitimate   application usage     |
-| 5376     | Credential Manager   credentials were backed up.                                                          | Account Management           | User Account   Management            | Monitor for   unexpected credential backups                    | Credential theft                               | Planned maintenance                |
-| 5377     | Credential Manager   credentials were restored from a backup.                                             | Account Management           | User Account   Management            | Monitor for   unexpected credential restores                   | Credential tampering                           | Planned maintenance                |
-| 5378     | The requested   credentials delegation was disallowed by policy.                                          | Logon/Logoff                 | Other Logon/Logoff   Events          | Monitor for repeated   delegation disallowances                | Policy   misconfiguration                      | Normal policy   behavior           |
-| 6145     | One or more errors   occurred while processing security policy in the group policy objects.               | Policy Change                | Other Policy Change   Events         | Monitor for GPO   processing errors                            | Policy corruption                              | Network issues                     |
-| 6273     | Network Policy Server   denied access to a user.                                                          | Logon/Logoff                 | Network Policy Server                | Monitor for repeated   access denials                          | Unauthorized access   attempts                 | Incorrect credentials              |
-| 6276     | Network Policy Server   quarantined a user.                                                               | Logon/Logoff                 | Network Policy Server                | Monitor for   quarantined user accounts                        | Compromised accounts                           | Policy enforcement                 |
-| 6280     | Network Policy Server   unlocked the user account.                                                        | Logon/Logoff                 | Network Policy Server                | Monitor for   unexpected account unlocks                       | Policy circumvention                           | Administrative tasks               |
-| 6281     | Code Integrity   determined that the page hashes of an image file are not valid.                          | System                       | System Integrity                     | Monitor for invalid   page hashes                              | Malware injection                              | File corruption                    |
-| 6410     | Code integrity   determined that a file does not meet the security requirements to load into a   process. | System                       | System Integrity                     | Monitor for file   loading failures                            | Malware infection                              | File corruption                    |
-| 6416     | A new external device   was recognized by the system.                                                     | Process Tracking             | Plug and Play                        | Monitor for   unauthorized devices                             | Unauthorized data   transfer                   | Planned device usage               |
-| 6419     | A request was made to   disable a device.                                                                 | Process Tracking             | Plug and Play                        | Monitor for   unexpected device disable requests               | Device tampering                               | Administrative tasks               |
-| 6420     | A device was   disabled.                                                                                  | Process Tracking             | Plug and Play                        | Monitor for   unexpected device disable actions                | Device tampering                               | Administrative tasks               |
-| 6421     | A request was made to   enable a device.                                                                  | Process Tracking             | Plug and Play                        | Monitor for   unexpected device enable requests                | Device tampering                               | Administrative tasks               |
-| 6422     | A device was enabled.                                                                                     | Process Tracking             | Plug and Play                        | Monitor for   unexpected device enable actions                 | Device tampering                               | Administrative tasks               |
-| 6423     | The installation of   this device is forbidden by system policy.                                          | Process Tracking             | Plug and Play                        | Monitor for device   installation policy violations            | Unauthorized device   installation             | Policy enforcement                 |
-| 6424     | The installation of   this device was allowed after having previously been forbidden by policy.           | Process Tracking             | Plug and Play                        | Monitor for device   installation policy changes               | Unauthorized device   installation             | Policy updates                     |
-| 4649     | A replay attack was   detected.                                                                           | Logon/Logoff                 | Other Logon/Logoff   Events          | Monitor for repeated   identical requests                      | Credential reuse                               | Network   misconfiguration         |
-| 4706     | A new trust was   created to a domain.                                                                    | Policy Change                | Authentication Policy   Change       | Monitor for   unauthorized trust creation                      | Domain compromise                              | Planned domain   updates           |
-| 4707     | A trust to a domain   was removed.                                                                        | Policy Change                | Authentication Policy   Change       | Monitor for   unauthorized trust removal                       | Domain isolation                               | Planned domain   updates           |
-| 4713     | Kerberos policy was   changed.                                                                            | Policy Change                | Authentication Policy   Change       | Monitor for   unexpected Kerberos policy changes               | Authentication bypass                          | Planned updates                    |
-| 4716     | Trusted domain   information was modified.                                                                | Policy Change                | Authentication Policy   Change       | Monitor for   unexpected changes to trusted domain information | Domain tampering                               | Administrative tasks               |
-| 4727     | A security-enabled   global group was created.                                                            | Account Management           | Security Group   Management          | Monitor for   unauthorized group creation                      | Privilege escalation                           | Administrative tasks               |
-| 4728     | A member was added to   a security-enabled global group.                                                  | Account Management           | Security Group   Management          | Monitor for   unauthorized group member additions              | Privilege escalation                           | Planned changes                    |
-| 4729     | A member was removed   from a security-enabled global group.                                              | Account Management           | Security Group   Management          | Monitor for   unauthorized group member removals               | Privilege abuse                                | Planned changes                    |
-| 4730     | A security-enabled   global group was deleted.                                                            | Account Management           | Security Group   Management          | Monitor for   unauthorized group deletions                     | Privilege abuse                                | Planned changes                    |
-| 4737     | A security-enabled   global group was changed.                                                            | Account Management           | Security Group   Management          | Monitor for   unexpected group modifications                   | Privilege escalation                           | Planned changes                    |
-| 4741     | A computer account   was created.                                                                         | Account Management           | Computer Account   Management        | Monitor for   unauthorized computer account creation           | Backdoor accounts                              | Planned changes                    |
-| 4742     | A computer account   was changed.                                                                         | Account Management           | Computer Account   Management        | Monitor for   unauthorized computer account changes            | Privilege escalation                           | Planned updates                    |
-| 4743     | A computer account   was deleted.                                                                         | Account Management           | Computer Account   Management        | Monitor for   unauthorized computer account deletions          | Backdoor removal                               | Planned updates                    |
-| 4754     | A security-enabled   universal group was created.                                                         | Account Management           | Security Group   Management          | Monitor for   unauthorized universal group creation            | Privilege escalation                           | Administrative tasks               |
-| 4755     | A security-enabled   universal group was changed.                                                         | Account Management           | Security Group   Management          | Monitor for   unauthorized universal group changes             | Privilege escalation                           | Administrative tasks               |
-| 4756     | A member was added to   a security-enabled universal group.                                               | Account Management           | Security Group   Management          | Monitor for   unauthorized additions to universal groups       | Privilege escalation                           | Administrative tasks               |
-| 4757     | A member was removed   from a security-enabled universal group.                                           | Account Management           | Security Group   Management          | Monitor for   unauthorized removals from universal groups      | Privilege abuse                                | Administrative tasks               |
-| 4764     | A group’s type was   changed.                                                                             | Account Management           | Security Group   Management          | Monitor for   unexpected group type changes                    | Privilege escalation                           | Administrative tasks               |
-| 4765     | SID History was added   to an account.                                                                    | Account Management           | User Account   Management            | Monitor for   unauthorized SID History additions               | Account tampering                              | Planned updates                    |
-| 4766     | An attempt to add SID   History to an account failed.                                                     | Account Management           | User Account   Management            | Monitor for failed   attempts to add SID History               | Privilege escalation   attempts                | Misconfiguration                   |
-| 4768     | A Kerberos   authentication ticket (TGT) was requested.                                                   | Account Logon                | Kerberos   Authentication Service    | Monitor for unusual   TGT requests                             | Brute force attacks                            | Normal authentication   operations |
-| 4769     | A Kerberos service   ticket was requested.                                                                | Account Logon                | Kerberos Service   Ticket Operations | Monitor for unusual   service ticket requests                  | Lateral movement                               | Legitimate service   access        |
-| 4770     | A Kerberos service   ticket was renewed.                                                                  | Account Logon                | Kerberos Service   Ticket Operations | Monitor for repeated   ticket renewals                         | Session hijacking                              | Normal ticket renewal   processes  |
-| 4771     | Kerberos   pre-authentication failed.                                                                     | Account Logon                | Kerberos   Authentication Service    | Monitor for frequent   pre-authentication failures             | Brute force attacks                            | User error                         |
-| 4794     | An attempt was made   to set the Directory Services Restore Mode administrator password.                  | Account Management           | User Account   Management            | Monitor for   unauthorized password resets                     | Account compromise                             | Planned updates                    |
-| 4799     | A security-enabled   local group membership was enumerated.                                               | Account Management           | Security Group   Management          | Monitor for frequent   group membership enumerations           | Reconnaissance                                 | Administrative tasks               |
-| 4865     | A trusted forest   information entry was added.                                                           | Policy Change                | Authentication Policy   Change       | Monitor for   unexpected forest additions                      | Privilege escalation                           | Planned updates                    |
-| 4866     | A trusted forest   information entry was removed.                                                         | Policy Change                | Authentication Policy   Change       | Monitor for   unauthorized forest entry removals               | Domain isolation                               | Planned updates                    |
-| 4867     | A trusted forest   information entry was added.                                                           | Policy Change                | Authentication Policy   Change       | Monitor for   unexpected forest additions                      | Privilege escalation                           | Planned updates                    |
-| 5136     | A directory service   object was modified.                                                                | Directory Services           | Directory Service   Changes          | Monitor for   unauthorized directory modifications             | Data tampering                                 | Administrative tasks               |
-| 5137     | A directory service   object was created.                                                                 | Directory Services           | Directory Service   Changes          | Monitor for   unauthorized directory creations                 | Unauthorized accounts                          | Administrative tasks               |
-| 5138     | A directory service   object was undeleted.                                                               | Directory Services           | Directory Service   Changes          | Monitor for   unexpected directory undeletions                 | Data tampering                                 | Planned updates                    |
-| 5139     | A directory service   object was moved.                                                                   | Directory Services           | Directory Service   Changes          | Monitor for   unauthorized directory moves                     | Data tampering                                 | Administrative tasks               |
-| 5140     | (NOISY!) Network   share object accessed.                                                                 | Object Access                | File Share                           | Monitor for abnormal   network share access                    | Data exfiltration                              | Normal file sharing                |
-| 4103     | Microsoft-Windows-PowerShell                                                                              | Microsoft-Windows-PowerShell | Pipeline Execution                   | Monitor for unusual   pipeline executions                      | Malicious script   execution                   | Administrative   scripting         |
-| 4104     | Scriptblock executed.                                                                                     | Microsoft-Windows-PowerShell | Execute a Remote   Command           | Monitor for   unauthorized script executions                   | Malicious script   execution                   | Administrative tasks               |
-| 40961    | PowerShell Console   Starting.                                                                            | Microsoft-Windows-PowerShell | PowerShell Console   Startup         | Monitor for   unexpected PowerShell console starts             | Unauthorized access                            | Administrative tasks               |
-| 40962    | PowerShell Console   Started.                                                                             | Microsoft-Windows-PowerShell | PowerShell Console   Startup         | Monitor for frequent   PowerShell starts                       | Potential malicious   activity                 | Administrative tasks               |
+| Event ID | Description |
+|----------|-------------|
+| 1100 | The event logging service has shut down |
+| 1102 | The audit log was cleared |
+| 1116 | Windows Defender detected malware |
+| 1117 | Windows Defender cleaned malware |
+| 1118 | Windows Defender quarantined malware |
+| 40961 | PowerShell Console Starting |
+| 40962 | PowerShell Console Started |
+| 4103 | Microsoft-Windows-PowerShell |
+| 4104 | Scriptblock executed |
+| 4611 | A trusted logon process has been registered with the Local Security Authority |
+| 4616 | System time changed |
+| 4618 | A monitored security event pattern has occurred |
+| 4621 | Administrator recovered system from crash |
+| 4624 | Successful logon |
+| 4625 | Failed logon |
+| 4634 | Logoff |
+| 4647 | User initiated logoff |
+| 4648 | Logon attempt using explicit credentials |
+| 4649 | A replay attack was detected |
+| 4656 | Handle to object requested |
+| 4657 | Registry value modified |
+| 4660 | Object deleted |
+| 4661 | Handle requested for object |
+| 4662 | Operation performed on object (AD object access) |
+| 4663 | Object access attempt |
+| 4664 | Object delete attempt |
+| 4670 | Permissions on object changed |
+| 4672 | Special privileges assigned to new logon |
+| 4673 | Privileged service called |
+| 4674 | Operation performed on privileged object |
+| 4675 | SIDs were filtered |
+| 4688 | A new process has been created |
+| 4689 | A process has exited |
+| 4690 | Attempt to duplicate object handle |
+| 4691 | Indirect access to object |
+| 4692 | Backup of data protection master key attempted |
+| 4693 | Recovery of data protection master key attempted |
+| 4694 | Protection applied to object |
+| 4695 | Unprotection of protected data attempted |
+| 4697 | Service installation attempt |
+| 4698 | Scheduled task created |
+| 4699 | Scheduled task deleted |
+| 4700 | Scheduled task enabled |
+| 4701 | Scheduled task disabled |
+| 4702 | Scheduled task updated |
+| 4703 | User right adjusted |
+| 4704 | User right assigned |
+| 4706 | New trust created to a domain |
+| 4707 | Trust to a domain removed |
+| 4713 | Kerberos policy changed |
+| 4715 | Audit policy (SACL) on object changed |
+| 4716 | Trusted domain information modified |
+| 4717 | System security access granted to account |
+| 4718 | System security access removed from account |
+| 4719 | System audit policy changed |
+| 4720 | User account created |
+| 4722 | User account enabled |
+| 4723 | Attempt to change password |
+| 4724 | Attempt to reset password |
+| 4725 | User account disabled |
+| 4726 | User account deleted |
+| 4727 | Security-enabled global group created |
+| 4728 | Member added to security-enabled global group |
+| 4729 | Member removed from security-enabled global group |
+| 4730 | Security-enabled global group deleted |
+| 4731 | Security-enabled local group created |
+| 4732 | Member added to security-enabled local group |
+| 4733 | Member removed from security-enabled local group |
+| 4734 | Security-enabled local group deleted |
+| 4735 | Security-enabled local group changed |
+| 4737 | Security-enabled global group changed |
+| 4738 | User account changed |
+| 4739 | Domain policy changed |
+| 4740 | Account locked out |
+| 4741 | Computer account created |
+| 4742 | Computer account changed |
+| 4743 | Computer account deleted |
+| 4744 | SID history added to account |
+| 4745 | SID history added to group |
+| 4746 | SID history added to alias |
+| 4747 | SID history removed from account |
+| 4748 | SID history removed from group |
+| 4749 | SID history removed from alias |
+| 4750 | Security-disabled global group created |
+| 4751 | Member added to security-disabled global group |
+| 4752 | Member removed from security-disabled global group |
+| 4753 | Security-disabled global group deleted |
+| 4754 | Security-disabled local group created |
+| 4755 | Member added to security-disabled local group |
+| 4756 | Member removed from security-disabled local group |
+| 4757 | Security-disabled local group deleted |
+| 4758 | Security-enabled universal group created |
+| 4759 | Member added to security-enabled universal group |
+| 4760 | Member removed from security-enabled universal group |
+| 4761 | Security-enabled universal group deleted |
+| 4762 | Security-disabled universal group created |
+| 4763 | Member added to security-disabled universal group |
+| 4764 | Member removed from security-disabled universal group |
+| 4765 | Security-disabled universal group deleted |
+| 4766 | Attempt to add SID History to an account failed |
+| 4767 | User account unlocked |
+| 4768 | Kerberos authentication ticket (TGT) requested |
+| 4769 | Kerberos service ticket requested |
+| 4770 | Kerberos service ticket renewed |
+| 4771 | Kerberos pre-authentication failed |
+| 4772 | Kerberos authentication ticket request failed |
+| 4774 | Kerberos principal name mapping |
+| 4775 | Kerberos pre-authentication failed (PAC verification) |
+| 4776 | NTLM authentication (credential validation) |
+| 4778 | RDP session reconnected |
+| 4779 | RDP session disconnected |
+| 4780 | Account name enumerated |
+| 4781 | Account name changed |
+| 4782 | Password hash of an account was accessed |
+| 4793 | Password Policy Checking API was called |
+| 4794 | Attempt to set Directory Services Restore Mode password |
+| 4797 | Query for credential validation |
+| 4798 | User’s local group membership enumerated |
+| 4799 | Security-enabled local group membership enumerated |
+| 4800 | Workstation locked |
+| 4801 | Workstation unlocked |
+| 4802 | Screensaver invoked |
+| 4803 | Screensaver dismissed |
+| 4816 | RPC integrity violation detected |
+| 4817 | Auditing settings on object changed |
+| 4865 | Trusted forest information entry added |
+| 4866 | Trusted forest information entry removed |
+| 4867 | Trusted forest information entry added |
+| 4882 | Security permissions for Certificate Services changed |
+| 4885 | Audit filter for Certificate Services changed |
+| 4886 | Certificate request submitted |
+| 4887 | Certificate request issued |
+| 4888 | Certificate request denied |
+| 4889 | Certificate request revoked |
+| 4890 | Certificate request failed |
+| 4891 | Certificate services approved a certificate request |
+| 4892 | Certificate services denied a certificate request |
+| 4893 | Certificate services revoked a certificate |
+| 4895 | Certificate services published a CRL |
+| 4906 | CrashOnAuditFail value changed |
+| 4907 | Auditing settings on object changed |
+| 4908 | Special Groups Logon table modified |
+| 4912 | Per-User Audit Policy changed |
+| 4946 | Windows Firewall setting changed |
+| 4947 | Windows Firewall rule added |
+| 4948 | Windows Firewall rule modified |
+| 4949 | Windows Firewall rule deleted |
+| 4964 | Special groups assigned to a new logon |
+| 5007 | Windows Defender settings changed |
+| 5038 | Code integrity determined image hash of file is not valid |
+| 5140 | Network share accessed |
+| 5142 | Network share added |
+| 5143 | Network share modified |
+| 5144 | Network share deleted |
+| 5145 | Access to network share object |
+| 5146 | Windows Filtering Platform blocked a packet |
+| 5156 | Windows Filtering Platform allowed connection |
+| 5158 | Windows Filtering Platform blocked connection |
+| 5376 | Credential Manager credentials backed up |
+| 5377 | Credential Manager credentials restored from backup |
+| 5378 | Credential delegation disallowed by policy |
+| 5447 | Windows Filtering Platform filter changed |
+| 6145 | Errors occurred while processing security policy in GPO |
+| 6273 | NPS denied access to a user |
+| 6276 | NPS quarantined a user |
+| 6280 | NPS unlocked the user account |
+| 6281 | Code Integrity determined page hashes of image file are not valid |
+| 6410 | Code Integrity determined a file does not meet security requirements |
+| 6416 | New external device recognized by the system |
+| 6419 | Request made to disable a device |
+| 6420 | Device disabled |
+| 6421 | Request made to enable a device |
+| 6422 | Device enabled |
+| 6423 | Installation of this device is forbidden by policy |
+| 6424 | Installation of this device allowed after previously forbidden |
+| 7045 | Service installed |
+| 5136 | Directory service object modified |
+| 5137 | Directory service object created |
+| 5138 | Directory service object undeleted |
+| 5139 | Directory service object moved |
