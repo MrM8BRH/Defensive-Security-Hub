@@ -85,6 +85,7 @@ A curated collection of essential resources, tools, and references for Security 
 - [OverTheWire](https://overthewire.org/wargames/)
 
 ### Articles
+- [Tuning Detections isn’t Hard Unless You Make it Hard](https://infosecwriteups.com/tuning-detections-isnt-hard-unless-you-make-it-hard-15a7374cde47)
 - [Detect FYI - Becoming a Detection Engineering Contractor, Part I — The Motivation](https://detect.fyi/becoming-a-detection-engineering-contractor-part-i-the-motivation-3d5767d1d086)
 - [Detect FYI - Becoming a Detection Engineering Contractor, Part II— The Preparation](https://detect.fyi/becoming-a-detection-engineering-contractor-part-ii-the-preparation-4385c58c1d15)
 - [Detect FYI - Threat Hunting (Suspicious Windows Services)](https://detect.fyi/threat-hunting-suspicious-windows-service-names-2f0dceea204c)
