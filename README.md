@@ -75,6 +75,7 @@ A curated collection of essential resources, tools, and references for Security 
 - [Cyber Dojo](https://cyber-dojo.co/courses/)
 - [13Cubed](https://training.13cubed.com/)
 - [SOCRadar](https://academy.socradar.io/)
+- [Antisyphon Training](https://www.antisyphontraining.com/)
 - [NCSC - Exercise in a Box](https://www.ncsc.gov.uk/section/exercise-in-a-box/overview/)
 - [In-Depth Investigation & Threat Hunting](https://maltrak.com/livetraining/threathunting)
 - [Student SOC Program Foundations training](https://microsoft.github.io/SOC/source/content/#/)
