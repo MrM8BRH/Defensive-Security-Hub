@@ -207,6 +207,7 @@ A curated collection of essential resources, tools, and references for Security 
 
 ### GitHub Repositories
 - [SOC-RESSOURCES](https://github.com/DXC-0/SOC-Ressources)
+- [Simulation & Emulation](https://github.com/0xsyr0/Awesome-Cybersecurity-Handbooks/blob/main/handbooks/simulation_emulation.md)
 - [Detection Engineering Starter Pack](https://github.com/rfackroyd/detection-engineering-starter-pack)
 - [OSINT Dashboard](https://github.com/ekky19/osint)
 - [Cybersecurity Resources and Learning Journey](https://github.com/MrM8BRH/CRLJ)
