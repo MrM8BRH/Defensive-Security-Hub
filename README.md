@@ -397,6 +397,7 @@ A curated collection of essential resources, tools, and references for Security 
 - [Cybersecurity News](https://cybersecuritynews.com/category/vulnerability/)
 - [Vulert](https://vulert.com/blog/)
 - [Vulners](https://vulners.com/)
+- [SecurityVulnerability.io](https://securityvulnerability.io)
 - [VulDB Vendor Search](https://vuldb.com/?vendor)
 - [National Vulnerability Database](https://nvd.nist.gov/vuln)
 - [CVE MITRE Database](https://cve.mitre.org/)
