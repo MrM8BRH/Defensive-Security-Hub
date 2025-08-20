@@ -100,10 +100,6 @@ A curated collection of essential resources, tools, and references for Security 
 - [Loggly - Windows Logging Basics](https://www.loggly.com/ultimate-guide/windows-logging-basics/)
 - [Loggly - Troubleshooting with Windows Logs](https://www.loggly.com/ultimate-guide/troubleshooting-with-windows-logs/)
 - [Loggly - Centralizing Windows Logs](https://www.loggly.com/ultimate-guide/centralizing-windows-logs/)
-- [CrowdStrike - Cyber Threat Intelligence Explained](https://www.crowdstrike.com/en-us/cybersecurity-101/threat-intelligence/)
-- [CrowdStrike - Attack Vectors](https://www.crowdstrike.com/en-us/cybersecurity-101/threat-intelligence/attack-vector/)
-- [CrowdStrike - Threat Actors Explained](https://www.crowdstrike.com/en-us/cybersecurity-101/threat-intelligence/threat-actor/)
-- [CrowdStrike - What is an Attack Surface?](https://www.crowdstrike.com/en-us/cybersecurity-101/exposure-management/attack-surface/)
 - [CrowdStrike - AI SIEM](https://www.crowdstrike.com/en-us/cybersecurity-101/next-gen-siem/ai-siem/)
 - [SANS - Incident Response](https://www.sans.org/security-resources/glossary-of-terms/incident-response)
 - [Splunk - Security Operation Center](https://www.splunk.com/en_us/blog/learn/soc-security-operation-center.html)
@@ -340,6 +336,10 @@ A curated collection of essential resources, tools, and references for Security 
 - [lynis](https://github.com/CISOfy/lynis)
 
 ### Cyber Threat Intelligence
+- [CrowdStrike - Cyber Threat Intelligence Explained](https://www.crowdstrike.com/en-us/cybersecurity-101/threat-intelligence/)
+- [CrowdStrike - Attack Vectors](https://www.crowdstrike.com/en-us/cybersecurity-101/threat-intelligence/attack-vector/)
+- [CrowdStrike - Threat Actors Explained](https://www.crowdstrike.com/en-us/cybersecurity-101/threat-intelligence/threat-actor/)
+- [CrowdStrike - What is an Attack Surface?](https://www.crowdstrike.com/en-us/cybersecurity-101/exposure-management/attack-surface/)
 - [Integrating Large Language Models with Knowledge Graphs for Cyber Threat Intelligence Credibility Assessment](https://arxiv.org/abs/2408.08088)
 - [Awesome Threat Intelligence](https://github.com/hslatman/awesome-threat-intelligence)
 - [Best Practices for MITRE ATT&CK® Mapping](https://www.cisa.gov/sites/default/files/2023-01/Best%20Practices%20for%20MITRE%20ATTCK%20Mapping.pdf)
