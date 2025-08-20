@@ -39,6 +39,7 @@ A curated collection of essential resources, tools, and references for Security 
 ├── File Analysis
 ├── Cheat Sheets
 ├── Websites and Tools
+├── Adversary Emulation Platform 
 ├── Threat Hunting
 ├── DFIR
 ├── Hardening
@@ -46,9 +47,8 @@ A curated collection of essential resources, tools, and references for Security 
 ├── Cyber Threat Intelligence Platforms
 ├── MISP Resources Documentation
 ├── Kraven Security MISP Series
-├── IoCs
+├── IoCs & Security Analysis & Threat Intelligence Tools
 ├── Vulnerability Intelligence Resources
-├── Security Analysis & Threat Intelligence Tools
 ├── Data Breach & Leak Monitoring Services
 ├── Privacy & Image Search Tools
 ├── Hacking Communities & Resources
@@ -268,6 +268,13 @@ A curated collection of essential resources, tools, and references for Security 
 - [Attack Rule Map](https://attackrulemap.com/)
 - [endoflife.date](https://endoflife.date/)
 
+### Adversary Emulation Platform 
+- [Atomic Red Team](https://github.com/redcanaryco/atomic-red-team)
+- [Stratus Red Team](https://github.com/DataDog/stratus-red-team)
+- [MITRE Caldera™](https://github.com/mitre/caldera)
+- [VECTR](https://github.com/SecurityRiskAdvisors/VECTR)
+- [Splunk Attack Range ⚔️](https://github.com/splunk/attack_range)
+
 ### Threat Hunting
 - [MITRE ATT&amp;CK](https://attack.mitre.org/)
 - [MITRE ATT&amp;CK Groups](https://attack.mitre.org/groups/)
@@ -284,9 +291,9 @@ A curated collection of essential resources, tools, and references for Security 
 - [Majestic Million Websites](https://majestic.com/reports/majestic-million)
 
 ### DFIR
-- [IRM-2022 (Incident Response Methodologies 2022)](https://github.com/certsocietegenerale/IRM/tree/main)
 - [AboutDFIR](https://aboutdfir.com/)
 - [DFUR Diva](https://dfirdiva.com/)
+- [Digital Forensics Guide](https://github.com/mikeroyal/Digital-Forensics-Guide)
 - [Forensic Focus](https://www.forensicfocus.com/)
 - [Digital Forensics and Incident Response](https://www.jaiminton.com/cheatsheet/DFIR/#)
 - [Awesome Incident Response](https://github.com/meirwah/awesome-incident-response)
@@ -333,10 +340,18 @@ A curated collection of essential resources, tools, and references for Security 
 - [lynis](https://github.com/CISOfy/lynis)
 
 ### Cyber Threat Intelligence
+- [Integrating Large Language Models with Knowledge Graphs for Cyber Threat Intelligence Credibility Assessment](https://arxiv.org/abs/2408.08088)
 - [Awesome Threat Intelligence](https://github.com/hslatman/awesome-threat-intelligence)
+- [Best Practices for MITRE ATT&CK® Mapping](https://www.cisa.gov/sites/default/files/2023-01/Best%20Practices%20for%20MITRE%20ATTCK%20Mapping.pdf)
+- [Cheatsheet: Threat Attribution in Threat Intelligence](https://fareedfauzi.github.io/cheatsheets/threat-attribution/)
 - [CTI-CMM](https://github.com/cti-cmm/framework)
 - [Orange Cyberdefense](https://research.orangecyberdefense.com/now/)
 - [Hacktivist Coalitions](https://github.com/flqueiroz/hacktivist-coalitions)
+- [Adversaries](https://www.crowdstrike.com/adversaries/)
+- [Threat Intel Bot](https://chatgpt.com/g/g-Vy4rIqiCF-threat-intel-bot?model=gpt-4o)
+- [deepdarkCTI](https://github.com/fastfire/deepdarkCTI)
+- MISP Galaxy & MISP Taxonomies
+- Global Threat Landscape Reports
 
 ### Cyber Threat Intelligence Platforms
 - [IntelMQ](https://github.com/certtools/intelmq)
@@ -344,6 +359,8 @@ A curated collection of essential resources, tools, and references for Security 
 - [Open-CTI](https://github.com/OpenCTI-Platform/opencti)
 - [AlienVault](https://otx.alienvault.com/)
 - [IntelOwl](https://github.com/intelowlproject/IntelOwl)
+- [Build Your Own Cyber Threat Intelligence Program](https://www.netsecurity.com/build-your-own-cyber-threat-intelligence-program/)
+- [Building a Cyber Threat Intelligence Platform in 5 steps](https://erdalozkaya.com/cyber-threat-intelligence/)
 
 ### MISP Resources Documentation
 - [MISP Categories and Types](https://www.circl.lu/doc/misp/categories-and-types/)  
@@ -366,7 +383,16 @@ A curated collection of essential resources, tools, and references for Security 
 - [Part 6: API Usage](https://kravensecurity.com/threat-intelligence-with-misp-part-6-using-the-api/)  
 - [Part 7: Exporting IOCs](https://kravensecurity.com/threat-intelligence-with-misp-part-7-exporting-iocs/)  
 
-### IoCs
+### IoCs & Security Analysis & Threat Intelligence Tools
+- [VirusTotal File Scan](https://www.virustotal.com/gui/home/upload)
+- [Hybrid Analysis](https://www.hybrid-analysis.com/)
+- [ANY.RUN Interactive Malware Analysis](https://any.run/)
+- [SOCRadar](https://socradar.io/labs/app/ioc-radar/)
+- [threatYeti](https://threatyeti.com/)
+- [MetaDefender](https://metadefender.com/)
+- [Joe Sandbox](https://www.joesecurity.org/#)
+- [FileScan.io](https://www.filescan.io/scan)
+- [URLScan.io](https://urlscan.io/)
 - [PhishTank](https://phishtank.org/)
 - [OpenPhish](https://openphish.com/)
 - [Phishing Database](https://github.com/Phishing-Database/Phishing.Database)
@@ -374,9 +400,31 @@ A curated collection of essential resources, tools, and references for Security 
 - [VirusShare](https://virusshare.com/)
 - [abuse.ch](https://abuse.ch/)
 - [URLVoid](https://www.urlvoid.com/)
+- [IP Void](https://www.ipvoid.com/)
+- [Palo Alto URL Filter](https://urlfiltering.paloaltonetworks.com/)
+- [Symantec Filter](https://sitereview.bluecoat.com/#/)
+- [Symantec IP Reputation Investigation](https://ipremoval.sms.symantec.com/lookup)
+- [Trend Micro IP Reputation Lookup](https://servicecentral.trendmicro.com/en-us/ers/ip-lookup/)
+- [IP Address Lookup](https://www.whatismyip.com/ip-address-lookup/)
+- [Kaspersky Threat Intelligence](https://opentip.kaspersky.com/?tab=lookup)
 - [IOC.one](https://ioc.one/)
 - [FireHOL IP Lists](https://iplists.firehol.org/)
 - [ThreatFeeds.io](https://threatfeeds.io/)
+- [WannaBrowser](https://www.wannabrowser.net/)
+- [Browserling](https://www.browserling.com/)
+- [Cisco Talos Intelligence](https://www.talosintelligence.com/)
+- [Pulsedive Threat Intelligence](https://pulsedive.com/ioc/example.com)
+- [MyWot](https://www.mywot.com/)
+- [GreyNoise Visualization](https://viz.greynoise.io/)
+- [BrightCloud URL/IP Lookup](https://www.brightcloud.com/tools/url-ip-lookup.php)
+- [IBM X-Force Exchange](https://exchange.xforce.ibmcloud.com/)
+- [Spamhaus Lookup](https://check.spamhaus.org/)
+- [InQuest Deep File Inspection](https://labs.inquest.net/dfi)
+- [CrowdSec CTI](https://app.crowdsec.net/cti)
+- [Threat Zone URL Analysis](https://app.threat.zone/url-analysis)
+- [CRXplorer](https://crxplorer.com/)
+- [IsLegitSite](https://www.islegitsite.com/)
+- [HaveIBeenSquatted](https://haveibeensquatted.com/)
 - [Spydi's ThreatIntel Feed](https://github.com/spydisec/spydithreatintel)
 - [Free Threat Intel/IOC Feeds](https://github.com/Bert-JanP/Open-Source-Threat-Intel-Feeds)
 - [ThreatMon's Daily Command and Control (C2) Feed](https://github.com/ThreatMon/ThreatMon-Daily-C2-Feeds)
@@ -421,33 +469,6 @@ A curated collection of essential resources, tools, and references for Security 
 - [Threat Search](https://my-threat-news.vercel.app/)
 - [VulnCheck KEV](https://vulncheck.com/kev)
 
-### Security Analysis & Threat Intelligence Tools
-- [VirusTotal File Scan](https://www.virustotal.com/gui/home/upload)
-- [Hybrid Analysis](https://www.hybrid-analysis.com/)
-- [ANY.RUN Interactive Malware Analysis](https://any.run/)
-- [SOCRadar](https://socradar.io/labs/app/ioc-radar/)
-- [threatYeti](https://threatyeti.com/)
-- [MetaDefender](https://metadefender.com/)
-- [Joe Sandbox](https://www.joesecurity.org/#)
-- [FileScan.io](https://www.filescan.io/scan)
-- [URLScan.io](https://urlscan.io/)
-- [WannaBrowser](https://www.wannabrowser.net/)
-- [Browserling](https://www.browserling.com/)
-- [Cisco Talos Intelligence](https://www.talosintelligence.com/)
-- [Pulsedive Threat Intelligence](https://pulsedive.com/ioc/example.com)
-- [MyWot](https://www.mywot.com/)
-- [GreyNoise Visualization](https://viz.greynoise.io/)
-- [BrightCloud URL/IP Lookup](https://www.brightcloud.com/tools/url-ip-lookup.php)
-- [IBM X-Force Exchange](https://exchange.xforce.ibmcloud.com/)
-- [Symantec IP Reputation](https://ipremoval.sms.symantec.com/lookup)
-- [Spamhaus Lookup](https://check.spamhaus.org/)
-- [IP Address Lookup](https://www.whatismyip.com/ip-address-lookup/)
-- [InQuest Deep File Inspection](https://labs.inquest.net/dfi)
-- [CrowdSec CTI](https://app.crowdsec.net/cti)
-- [Threat Zone URL Analysis](https://app.threat.zone/url-analysis)
-- [CRXplorer](https://crxplorer.com/)
-- [IsLegitSite](https://www.islegitsite.com/)
-- [HaveIBeenSquatted](https://haveibeensquatted.com/)
 
 ### Data Breach & Leak Monitoring Services
 - [Have I Been Pwned](https://haveibeenpwned.com/)
