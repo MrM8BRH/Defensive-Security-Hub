@@ -85,6 +85,10 @@ A curated collection of essential resources, tools, and references for Security 
 - [OverTheWire](https://overthewire.org/wargames/)
 
 ### Articles
+- [thirdeyeintel - Navigating the Evolving Cyber Threat Landscape: Insights from ACSC’s 2021-2023 Reports](https://thirdeyeintel.com.au/2023/11/15/navigating-the-evolving-cyber-threat-landscape-insights-from-acscs-2021-2023-reports/)
+- [thirdeyeintel - AI-Enhanced SOCs in 2025: Defenders, Co-Pilots, and the New Cyber Threat Frontier](https://thirdeyeintel.com.au/2025/07/06/ai-enhanced-socs-in-2025-defenders-co-pilots-and-the-new-cyber-threat-frontier/)
+- [thirdeyeintel - My take on Role of Threat Intelligence in Security Operations](https://thirdeyeintel.com.au/2023/10/15/my-take-on-role-of-threat-intelligence-in-security-operations/)
+- [thirdeyeintel - The Future-Ready SOC: A Blueprint for Maturity, Resilience, and Real-World Impact](https://thirdeyeintel.com.au/2025/09/24/the-future-ready-soc-a-blueprint-for-maturity-resilience-and-real-world-impact/)
 - [MITRE ATT&CK®](https://medium.com/mitre-attack)
 - [Tuning Detections isn’t Hard Unless You Make it Hard](https://infosecwriteups.com/tuning-detections-isnt-hard-unless-you-make-it-hard-15a7374cde47)
 - [Detect FYI - Becoming a Detection Engineering Contractor, Part I — The Motivation](https://detect.fyi/becoming-a-detection-engineering-contractor-part-i-the-motivation-3d5767d1d086)
