@@ -207,6 +207,7 @@ A curated collection of essential resources, tools, and references for Security 
 - [CESG](https://www.gov.uk/government/organisations/cesg)
 
 ### GitHub Repositories
+- [SOC Analyst Notes](https://github.com/MaheshShukla1/SOC-Analyst-Notes)
 - [SOC-RESSOURCES](https://github.com/DXC-0/SOC-Ressources)
 - [Detection Engineering Starter Pack](https://github.com/rfackroyd/detection-engineering-starter-pack)
 - [OSINT Dashboard](https://github.com/ekky19/osint)
