@@ -118,6 +118,7 @@ A curated collection of essential resources, tools, and references for Security 
 ### Documents & Publications
 - [Hack The Logs](https://www.hackthelogs.com/)
 - [Event Log Compendium](https://eventlog-compendium.streamlit.app/)
+- [The Base-Rate Fallacy and its Implications for the Difficulty of Intrusion Detection](https://www.andrew.cmu.edu/course/18-330/2025s/reading/Axelsson_1999_The%20base-rate%20fallacy%20and%20its%20implications%20for%20the%20difficulty%20of%20intrusion%20detection.pdf)
 - [Implementing SIEM and SOAR platforms: Executive guidance](https://www.cyber.gov.au/sites/default/files/2025-06/Implementing%20SIEM%20and%20SOAR%20platforms%20-%20Executive%20guidance.pdf)
 - [Best practices for event logging and threat detection](https://www.cyber.gov.au/sites/default/files/2025-03/Best%20practices%20for%20event%20logging%20and%20threat%20detection%20%28August%202024%29.pdf)
 - [Priority logs for SIEM ingestion: practitioner guidance](https://www.cyber.gov.au/sites/default/files/2025-05/Priority%20logs%20for%20SIEM%20ingestion%20-%20Practitioner%20guidance.pdf)
