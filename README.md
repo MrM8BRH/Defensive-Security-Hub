@@ -86,6 +86,9 @@ A curated collection of essential resources, tools, and references for Security 
 - [OverTheWire](https://overthewire.org/wargames/)
 
 ### Articles
+- [AutoIT Payload Injector](https://isc.sans.edu/diary/33192)
+- [The Telegram Malware Ecosystem](https://ransom-isac.org/blog/the-telegram-malware-ecosystem/)
+- [Windows Persistence Forensics: Services, Scheduled Tasks, and Autoruns](https://sethenoka.com/persistence-artefacts-services-scheduled-tasks-and-intentional-longevity/)
 - [thirdeyeintel - Navigating the Evolving Cyber Threat Landscape: Insights from ACSC’s 2021-2023 Reports](https://thirdeyeintel.com.au/2023/11/15/navigating-the-evolving-cyber-threat-landscape-insights-from-acscs-2021-2023-reports/)
 - [thirdeyeintel - AI-Enhanced SOCs in 2025: Defenders, Co-Pilots, and the New Cyber Threat Frontier](https://thirdeyeintel.com.au/2025/07/06/ai-enhanced-socs-in-2025-defenders-co-pilots-and-the-new-cyber-threat-frontier/)
 - [thirdeyeintel - My take on Role of Threat Intelligence in Security Operations](https://thirdeyeintel.com.au/2023/10/15/my-take-on-role-of-threat-intelligence-in-security-operations/)
