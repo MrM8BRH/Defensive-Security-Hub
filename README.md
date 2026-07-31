@@ -630,6 +630,7 @@ A curated collection of essential resources, tools, and references for Security 
 
 ### OSINT Resources
 - [Best OSINT books](https://www.osintteam.com/books/)
+- [Darkmoon](https://github.com/ASCIT31/Dark-Moon)
 - [Awesome OSINT Repository](https://github.com/jivoi/awesome-osint)
 - [Social Media OSINT Tools Collection](https://github.com/osintambition/Social-Media-OSINT-Tools-Collection)
 - [Social Media OSINT](https://github.com/The-Osint-Toolbox/Social-Media-OSINT)
