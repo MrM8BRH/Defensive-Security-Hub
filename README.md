@@ -427,6 +427,7 @@ A curated collection of essential resources, tools, and references for Security 
 - [Pulsedive Threat Intelligence](https://pulsedive.com/ioc/example.com)
 - [MyWot](https://www.mywot.com/)
 - [GreyNoise Visualization](https://viz.greynoise.io/)
+- [Whatoblock](https://whatoblock.com/)
 - [BrightCloud URL/IP Lookup](https://www.brightcloud.com/tools/url-ip-lookup.php)
 - [IBM X-Force Exchange](https://exchange.xforce.ibmcloud.com/)
 - [Spamhaus Lookup](https://check.spamhaus.org/)
